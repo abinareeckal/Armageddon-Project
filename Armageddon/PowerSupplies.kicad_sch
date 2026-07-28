@@ -5613,6 +5613,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5689,6 +5695,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -5775,6 +5787,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5856,6 +5874,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5932,6 +5956,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -6018,6 +6048,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6100,6 +6136,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6178,6 +6220,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6252,6 +6300,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -6338,6 +6392,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6420,6 +6480,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6496,6 +6562,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -6582,6 +6654,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6660,6 +6738,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C6")
 					(unit 1)
 				)
@@ -6746,6 +6830,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6824,6 +6914,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "R17")
 					(unit 1)
 				)
@@ -6910,6 +7006,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6986,6 +7088,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -7072,6 +7180,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7146,6 +7260,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -7232,6 +7352,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7306,6 +7432,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -7388,6 +7520,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7462,6 +7600,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -7548,6 +7692,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7626,6 +7776,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C12")
 					(unit 1)
 				)
@@ -7712,6 +7868,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7790,6 +7952,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "R15")
 					(unit 1)
 				)
@@ -7873,6 +8041,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7949,6 +8123,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C10")
 					(unit 1)
 				)
@@ -8035,6 +8215,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8110,6 +8296,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -8193,6 +8385,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8267,6 +8465,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -8349,6 +8553,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8423,6 +8633,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -8503,6 +8719,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -8589,6 +8811,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8667,6 +8895,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "R3")
 					(unit 1)
 				)
@@ -8753,6 +8987,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8829,6 +9069,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -8912,6 +9158,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8990,6 +9242,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C2")
 					(unit 1)
 				)
@@ -9136,6 +9394,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9218,6 +9482,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9296,6 +9566,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C1")
 					(unit 1)
 				)
@@ -9391,6 +9667,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "J2")
 					(unit 1)
 				)
@@ -9628,6 +9910,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9703,6 +9991,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -9789,6 +10083,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9865,6 +10165,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -9951,6 +10257,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10029,6 +10341,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C9")
 					(unit 1)
 				)
@@ -10115,6 +10433,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10192,6 +10516,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C15")
 					(unit 1)
 				)
@@ -10278,6 +10608,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10356,6 +10692,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C17")
 					(unit 1)
 				)
@@ -10442,6 +10784,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10520,6 +10868,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "R14")
 					(unit 1)
 				)
@@ -10606,6 +10960,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10688,6 +11048,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10762,6 +11128,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -10848,6 +11220,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10930,6 +11308,12 @@
 					(unit 1)
 				)
 			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11004,6 +11388,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -11086,6 +11476,12 @@
 		(instances
 			(project "Armageddon"
 				(path "/272cf518-db2b-439d-8925-aab1db28edc7/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "main"
+				(path "/a835fa1c-932a-4dae-804c-123c07cd7aa5/116c8c81-cb47-4eb7-bca7-dfee63830bd0"
 					(reference "C21")
 					(unit 1)
 				)

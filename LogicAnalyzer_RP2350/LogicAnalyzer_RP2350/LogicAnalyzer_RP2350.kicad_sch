@@ -2,9 +2,56 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid d75f24d0-99d8-459e-8e7b-473191ec3959)
+	(uuid "d75f24d0-99d8-459e-8e7b-473191ec3959")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 31.75 30.48)
+		(size 34.29 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 60 255 1)
+		)
+		(fill
+			(color 241 210 16 1)
+		)
+		(uuid "805e660b-1486-4481-a006-02fc919054bd")
+		(property "Sheetname" "USB & POWER"
+			(at 31.75 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB & POWER.kicad_sch"
+			(at 31.75 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -409,11 +409,26 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "LogicAnalyzer_RP2350.kicad_sch",
+        "name": "Root",
+        "uuid": "d75f24d0-99d8-459e-8e7b-473191ec3959"
+      }
+    ],
+    "used_designators": "R1-5,J1-2,L1,D1,#PWR1-5,C1-5,U1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d75f24d0-99d8-459e-8e7b-473191ec3959",
+      "Root"
+    ],
+    [
+      "805e660b-1486-4481-a006-02fc919054bd",
+      "USB & POWER"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

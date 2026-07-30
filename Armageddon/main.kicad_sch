@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "47a8d6eb-049d-4aa1-b880-a3892c19dad8")
-		(property "Sheetname" "RP Compute Module"
+		(property "Sheetname" "USB C"
 			(at 92.71 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)

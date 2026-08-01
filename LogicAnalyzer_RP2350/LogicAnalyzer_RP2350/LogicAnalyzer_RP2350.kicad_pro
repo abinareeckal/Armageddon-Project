@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -416,7 +416,7 @@
         "uuid": "d75f24d0-99d8-459e-8e7b-473191ec3959"
       }
     ],
-    "used_designators": "IC1,R1-8,J1-2,L1-2,D1-2,#PWR1-11,C1-7,U1,U3",
+    "used_designators": "IC1,R1-9,J1-2,L1-3,D1-2,#PWR1-19,C1-22,U1,U3",
     "variants": []
   },
   "sheets": [

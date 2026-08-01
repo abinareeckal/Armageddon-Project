@@ -7333,7 +7333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.73 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8499,7 +8499,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e73b210-a5da-4559-9a8f-6c6fe5cc09b2")
 		(property "Reference" "#PWR010"
 			(at 189.23 115.57 0)
@@ -8513,7 +8512,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 189.23 106.68 0)
+			(at 189.23 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8577,7 +8576,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90baa42a-fa35-4ac3-84bc-d36dda9bca2d")
 		(property "Reference" "#PWR011"
 			(at 257.81 115.57 0)
@@ -8591,7 +8589,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 257.81 106.68 0)
+			(at 257.81 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8815,7 +8813,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7272128-815d-4f48-b242-291edf52de3b")
 		(property "Reference" "#PWR05"
 			(at 260.35 26.67 0)
@@ -8829,7 +8826,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.35 17.78 0)
+			(at 260.35 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8994,7 +8991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10017,7 +10014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 45.72 0)
 			(hide yes)
 			(show_name no)

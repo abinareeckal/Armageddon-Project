@@ -416,7 +416,7 @@
         "uuid": "d75f24d0-99d8-459e-8e7b-473191ec3959"
       }
     ],
-    "used_designators": "IC1,R1-6,J1-2,L1-2,D1-2,#PWR1-11,C1-7,U1",
+    "used_designators": "IC1,R1-8,J1-2,L1-2,D1-2,#PWR1-11,C1-7,U1,U3",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "805e660b-1486-4481-a006-02fc919054bd",
       "USB & POWER"
+    ],
+    [
+      "08028c02-6110-45a5-bc16-9b1936572182",
+      "RP2350_Main"
     ]
   ],
   "text_variables": {},

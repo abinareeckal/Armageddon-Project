@@ -5182,6 +5182,12 @@
 		(uuid "3c922e41-9f4c-40b5-9ce4-2939cb77d98f")
 	)
 	(junction
+		(at 114.3 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48d1f2b9-65f5-441b-bbb7-5f4e0b8706f8")
+	)
+	(junction
 		(at 257.81 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5282,12 +5288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c38454bb-c09a-4490-996d-26fc95d32a0b")
-	)
-	(junction
-		(at 114.3 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c70775dd-1fb0-4cbc-b5f9-bfd0cb084f89")
 	)
 	(junction
 		(at 149.86 55.88)
@@ -6459,17 +6459,6 @@
 		)
 		(uuid "f78c7b1a-19c9-4cd8-84a8-cef5fee865f8")
 	)
-	(label "USB_N"
-		(at 179.07 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 255 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "1aa20f56-ee79-4e6e-922f-4598ab45e087")
-	)
 	(label "PC_USB_P"
 		(at 72.39 59.69 180)
 		(effects
@@ -6480,17 +6469,6 @@
 			(justify right bottom)
 		)
 		(uuid "21f28ff2-a645-43c3-8cd3-e67e798f8f93")
-	)
-	(label "USB_P"
-		(at 179.07 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 255 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "66d4eef4-0efd-47ca-a321-74c70614cf54")
 	)
 	(label "PLED_A"
 		(at 281.94 55.88 180)
@@ -6522,6 +6500,30 @@
 			(justify right bottom)
 		)
 		(uuid "cbaa2ea4-6245-4943-8c00-2708617d4938")
+	)
+	(hierarchical_label "USB_P"
+		(shape bidirectional)
+		(at 179.07 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "090b3061-b598-4c4b-9d3f-7e650ab1e0f1")
+	)
+	(hierarchical_label "USB_N"
+		(shape bidirectional)
+		(at 179.07 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b99eb8ca-17bd-4947-b16a-c9bc19694a8b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7353,7 +7355,7 @@
 				)
 			)
 		)
-		(property "Description" "Wurth - 885012206089"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8461,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Description" "Wurth 885012206095"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9014,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Description" "Wurth 885012206095"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 205.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10039,7 @@
 				)
 			)
 		)
-		(property "Description" "Wurth 885012206095"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 45.72 0)
 			(hide yes)
 			(show_name no)

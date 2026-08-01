@@ -5218,6 +5218,12 @@
 		(uuid "6e1946a6-351d-4490-a0a8-97a17cfd6b41")
 	)
 	(junction
+		(at 58.42 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "747d26f2-e38d-4cbe-9acc-7d227bf26a15")
+	)
+	(junction
 		(at 110.49 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5381,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 153.67) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0708a690-b2eb-46f1-b882-df383af78dae")
+	)
+	(wire
+		(pts
 			(xy 186.69 40.64) (xy 182.88 40.64)
 		)
 		(stroke
@@ -5468,6 +5484,16 @@
 			(type default)
 		)
 		(uuid "166c5356-93fb-4987-b39a-a579d53c7fca")
+	)
+	(wire
+		(pts
+			(xy 58.42 140.97) (xy 58.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1805fb0f-065e-4923-9076-f037be8d4ffd")
 	)
 	(wire
 		(pts
@@ -5618,6 +5644,16 @@
 			(type default)
 		)
 		(uuid "3bff3c2b-64b0-469c-bbb8-6cee821d5210")
+	)
+	(wire
+		(pts
+			(xy 58.42 130.81) (xy 58.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccdc709-ba0a-45a3-838d-31bced700265")
 	)
 	(wire
 		(pts
@@ -6161,6 +6197,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 143.51) (xy 81.28 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b459b962-0389-4b2f-ad41-ec4a49d28cea")
+	)
+	(wire
+		(pts
 			(xy 48.26 95.25) (xy 48.26 97.79)
 		)
 		(stroke
@@ -6328,6 +6374,16 @@
 			(type default)
 		)
 		(uuid "d3f744c8-b534-4a11-b473-9cdd3df61fbd")
+	)
+	(wire
+		(pts
+			(xy 58.42 143.51) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c9749b-0e20-4c56-8239-d0fdf6bdf5c6")
 	)
 	(wire
 		(pts
@@ -6512,6 +6568,17 @@
 			(justify left)
 		)
 		(uuid "090b3061-b598-4c4b-9d3f-7e650ab1e0f1")
+	)
+	(hierarchical_label "VBUS_SENSE"
+		(shape bidirectional)
+		(at 81.28 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110eeab5-ce30-434d-994d-490c69f74822")
 	)
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
@@ -8159,6 +8226,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "699682de-755d-4ea1-b797-bf01ee189ae1")
+		(property "Reference" "R15"
+			(at 60.96 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 60.96 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 56.642 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fdc3e6b5-604e-41ee-893d-697c6ed35c11")
+		)
+		(pin "1"
+			(uuid "8481ba36-b130-496a-a81a-a3bcc19c94dc")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Molex-0874370243:874370243")
 		(at 39.37 95.25 0)
 		(mirror y)
@@ -8242,6 +8391,84 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b86adeb-6fac-4f33-8e1c-982f16530825")
+		(property "Reference" "#PWR028"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff7c75f7-5e97-40b5-8658-b513c4d6e1aa")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8484,6 +8711,83 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d71ce80-b14b-44c3-a0aa-69a2c355fd79")
+		(property "Reference" "#PWR029"
+			(at 58.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bff80370-a308-4235-944a-5963d4cbe54e")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9034,6 +9338,88 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a8cac7-ec5b-4eae-ab95-7d7716393116")
+		(property "Reference" "R14"
+			(at 60.96 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K6"
+			(at 60.96 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 56.642 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52f76ef4-21fe-464d-b4f0-f32b31389e78")
+		)
+		(pin "1"
+			(uuid "7ac87eb7-0659-4c16-a7f1-790d4e65fa02")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/805e660b-1486-4481-a006-02fc919054bd"
+					(reference "R14")
 					(unit 1)
 				)
 			)

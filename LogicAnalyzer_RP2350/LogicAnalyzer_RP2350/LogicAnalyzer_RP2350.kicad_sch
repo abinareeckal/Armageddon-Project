@@ -5,6 +5,93 @@
 	(uuid "d75f24d0-99d8-459e-8e7b-473191ec3959")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 66.04 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b49b13-a95a-489e-a586-1effac7c63ad")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f033feae-6136-43a7-8ba7-309c07df9bd8")
+	)
+	(sheet
+		(at 87.63 30.48)
+		(size 31.75 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "08028c02-6110-45a5-bc16-9b1936572182")
+		(property "Sheetname" "RP2350_Main"
+			(at 87.63 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350_Main.kicad_sch"
+			(at 87.63 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_N" bidirectional
+			(at 87.63 43.18 180)
+			(uuid "1eadf65c-18bc-4b49-908a-7ff26445059b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_P" bidirectional
+			(at 87.63 46.99 180)
+			(uuid "e9827131-680e-47d3-8e57-b14e18bed36a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 31.75 30.48)
 		(size 34.29 36.83)
@@ -16,10 +103,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
-			(color 0 60 255 1)
+			(color 0 0 0 1)
 		)
 		(fill
-			(color 241 210 16 1)
+			(color 255 255 194 1)
 		)
 		(uuid "805e660b-1486-4481-a006-02fc919054bd")
 		(property "Sheetname" "USB & POWER"
@@ -42,6 +129,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_N" bidirectional
+			(at 66.04 43.18 0)
+			(uuid "ef936873-4049-4fa2-9b59-61e1c3c0966b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_P" bidirectional
+			(at 66.04 46.99 0)
+			(uuid "0a2ce058-676d-4f9d-93fd-2e8c0e506b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

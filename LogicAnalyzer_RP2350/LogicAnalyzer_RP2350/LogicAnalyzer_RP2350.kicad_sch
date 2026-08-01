@@ -25,6 +25,16 @@
 		)
 		(uuid "f033feae-6136-43a7-8ba7-309c07df9bd8")
 	)
+	(wire
+		(pts
+			(xy 66.04 50.8) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facb9916-1d36-4a10-b324-0f6f737329f2")
+	)
 	(sheet
 		(at 87.63 30.48)
 		(size 31.75 36.83)
@@ -77,6 +87,16 @@
 		(pin "USB_P" bidirectional
 			(at 87.63 46.99 180)
 			(uuid "e9827131-680e-47d3-8e57-b14e18bed36a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_SENSE" bidirectional
+			(at 87.63 50.8 180)
+			(uuid "c6bd8d98-23f8-40e0-9d15-4ae9ba3e5ae1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,6 +164,16 @@
 		(pin "USB_P" bidirectional
 			(at 66.04 46.99 0)
 			(uuid "0a2ce058-676d-4f9d-93fd-2e8c0e506b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_SENSE" bidirectional
+			(at 66.04 50.8 0)
+			(uuid "7153a3c0-bb59-487a-adab-276921d006d3")
 			(effects
 				(font
 					(size 1.27 1.27)

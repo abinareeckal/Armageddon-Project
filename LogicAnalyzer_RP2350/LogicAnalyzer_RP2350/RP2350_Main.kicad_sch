@@ -3564,6 +3564,28 @@
 		)
 		(uuid "9ec141fb-33bb-48e4-8228-d0061f6ad0ac")
 	)
+	(text "DEBUG Led"
+		(exclude_from_sim no)
+		(at 256.794 191.262 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "9efd75de-6188-4366-a9cf-4929d90dde4e")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 118.872 130.556 90)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "be97b148-934b-489c-9185-96c7fb5c7cd2")
+	)
 	(text "DEBUG PROBE"
 		(exclude_from_sim no)
 		(at 82.042 202.184 0)
@@ -6664,12 +6686,12 @@
 		)
 		(uuid "b2d679fb-a230-420b-b917-724cd86afe1f")
 	)
-	(label "DEBUG_LED"
+	(label "Debug_Led"
 		(at 242.57 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 255 1)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)

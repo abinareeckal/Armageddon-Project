@@ -416,7 +416,7 @@
         "uuid": "d75f24d0-99d8-459e-8e7b-473191ec3959"
       }
     ],
-    "used_designators": "IC1,R1-38,J1-3,L1-3,D1-3,#PWR1-32,C1-26,U1,U3-4,X1,Y1,SW1-2",
+    "used_designators": "IC1,R1-38,J1-3,L1-3,D1-3,#PWR1-32,C1-26,U1,U3-10,X1,Y1,SW1-2",
     "variants": []
   },
   "sheets": [
@@ -434,7 +434,7 @@
     ],
     [
       "d8a2af0e-dea5-48dd-840f-5c1357943d7a",
-      "Shift_Registers"
+      "LevelShifters"
     ]
   ],
   "text_variables": {},

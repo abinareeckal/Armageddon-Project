@@ -225,7 +225,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "d8a2af0e-dea5-48dd-840f-5c1357943d7a")
-		(property "Sheetname" "Shift_Registers"
+		(property "Sheetname" "LevelShifters"
 			(at 137.16 29.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -236,7 +236,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Shift_Resgisters.kicad_sch"
+		(property "Sheetfile" "LevelShifters.kicad_sch"
 			(at 137.16 67.8946 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -15,6 +15,16 @@
 		)
 		(uuid "12b49b13-a95a-489e-a586-1effac7c63ad")
 	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7839dd65-4989-4e52-bfeb-d0931abae907")
+	)
 	(bus
 		(pts
 			(xy 119.38 46.99) (xy 137.16 46.99)
@@ -117,6 +127,16 @@
 		(pin "D[1..24]" bidirectional
 			(at 119.38 46.99 0)
 			(uuid "795c0733-7a84-4433-a7d1-03143e3b8c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_CHAIN" bidirectional
+			(at 119.38 50.8 0)
+			(uuid "2e95eed3-aaee-474f-be48-05c54584260e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,6 +270,16 @@
 		(pin "D[1..24]" bidirectional
 			(at 137.16 46.99 180)
 			(uuid "df1e92d4-934c-47cf-b336-c77c302d68bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_CHAIN" bidirectional
+			(at 137.16 50.8 180)
+			(uuid "141c4e7b-22ae-4c77-afef-42efe8f6b3ec")
 			(effects
 				(font
 					(size 1.27 1.27)

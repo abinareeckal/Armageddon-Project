@@ -3520,7 +3520,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "12MHz Crystal"
+	(text "12MHZ CRYSTAL"
 		(exclude_from_sim no)
 		(at 133.858 155.448 0)
 		(effects
@@ -3531,7 +3531,7 @@
 		)
 		(uuid "0cee6c97-4a86-4fe9-81b9-c84b4fde608e")
 	)
-	(text "Boot Sel"
+	(text "BOOT SEL"
 		(exclude_from_sim no)
 		(at 53.594 68.326 0)
 		(effects
@@ -3542,7 +3542,7 @@
 		)
 		(uuid "53ba7038-98a6-4a02-96f3-e912b33c8bf5")
 	)
-	(text "QSPI Flash 128Mbit/16Mb\n"
+	(text "QSPI FLASH 125Mbit"
 		(exclude_from_sim no)
 		(at 60.96 129.286 0)
 		(effects

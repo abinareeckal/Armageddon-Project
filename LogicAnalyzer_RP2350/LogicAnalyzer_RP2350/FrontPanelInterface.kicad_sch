@@ -3947,7 +3947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c18f02-5e67-46a4-a26c-c1f615355ed5")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR080"
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4007,7 +4007,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR096")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4024,7 +4024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a9e982a-0bf1-4847-94c5-ff4b682eab14")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR086"
 			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4084,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR0103")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21554d7e-4213-4e43-a69c-609e6d0f837c")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR082"
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4162,7 +4162,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR087")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4180,7 +4180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "264d563c-a065-4f72-877b-fafa43cf6b64")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR083"
 			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4240,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR088")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2abfbada-8806-48c9-a933-f54445c5459d")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR088"
 			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4318,7 +4318,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR0104")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b1c4590-4fed-4463-bfce-91f4e9be6ebf")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 114.046 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4399,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4416,7 +4416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d45c186-208f-4967-b727-b11c934afc96")
-		(property "Reference" "R44"
+		(property "Reference" "R47"
 			(at 127.762 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4478,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "R44")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "305edf47-0c6e-4c18-8949-dfb517dd3e70")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR084"
 			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR097")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3330b641-7f20-4334-b1da-1c4dd5340e54")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR079"
 			(at 44.45 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4633,7 +4633,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR090")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "337a5fdd-dd2b-4e3c-90b5-7f8b0dd9ab54")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR081"
 			(at 95.25 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4711,7 +4711,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR099")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a364492-7de2-43f8-8c30-98a93b17bc02")
-		(property "Reference" "C45"
+		(property "Reference" "C46"
 			(at 126.746 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4792,7 +4792,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -4947,7 +4947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf18947-2608-48d6-9a50-8938617fc6dc")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 173.99 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5016,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556549e9-dd7b-4475-be6e-108e4a0ef5da")
-		(property "Reference" "R43"
+		(property "Reference" "R49"
 			(at 180.086 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5095,7 +5095,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "R43")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5305,7 +5305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b8e189b-22d6-43af-aa28-6762efb263f2")
-		(property "Reference" "R42"
+		(property "Reference" "R48"
 			(at 172.466 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +5367,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "R42")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec0b8c7c-6457-4395-a46c-61f9a82c384f")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR087"
 			(at 223.52 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5523,7 +5523,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR0102")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -5540,7 +5540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f830192b-a91b-4b7e-96cd-bc71d71f64b7")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR085"
 			(at 182.88 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5600,7 +5600,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/68c34580-4572-474c-bc8b-c0b67926a418"
-					(reference "#PWR098")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)

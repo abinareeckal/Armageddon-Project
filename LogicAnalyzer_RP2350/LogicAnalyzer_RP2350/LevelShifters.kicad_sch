@@ -35,7 +35,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN03_534269030_MOL"
+			(property "Footprint" "534269030:CONN03_534269030_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -259,7 +259,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -277,7 +277,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -295,7 +295,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
@@ -559,7 +559,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-VE-ULC-0402"
+			(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
 				(at 12.7 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5861,7 +5861,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SSW-106-02-TM-S-RA:SAMTEC_SSW-106-02-TM-S-RA"
+			(property "Footprint" "SSW_106_02_TM_S_RA:SAMTEC_SSW-106-02-TM-S-RA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6083,7 +6083,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TSSOP_0104PWR_TEX"
+			(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6199,7 +6199,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 7.62)
 					(name "VCCA"
@@ -6307,7 +6307,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "GND"
@@ -6325,7 +6325,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 40.64 -15.24 180)
 					(length 7.62)
 					(name "OE"
@@ -6444,145 +6444,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+2V5"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7199,6 +7060,12 @@
 		(uuid "7a8940a1-6b79-4c4b-af8a-792b02a50088")
 	)
 	(junction
+		(at 246.38 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df8dc26-17c5-4718-8c01-b718045b24bc")
+	)
+	(junction
 		(at 474.98 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7257,6 +7124,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe6cffa-7124-47ea-a566-23df4a4517d1")
+	)
+	(junction
+		(at 372.11 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad929407-59c6-4406-b895-f9e990dcd372")
 	)
 	(junction
 		(at 518.16 236.22)
@@ -7331,6 +7204,12 @@
 		(uuid "db3c0b4c-3fe0-49f9-ace8-628d8d640710")
 	)
 	(junction
+		(at 382.27 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db8c2079-22b8-4df3-b09b-e42af6df3233")
+	)
+	(junction
 		(at 146.05 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7373,6 +7252,12 @@
 		(uuid "eed95854-3ab9-451d-8d81-7453a309a706")
 	)
 	(junction
+		(at 382.27 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23d443d-25d2-4b0c-a183-3102479ee686")
+	)
+	(junction
 		(at 96.52 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7383,6 +7268,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb1c3307-cb5d-4d08-8f0a-00ed19f4f893")
+	)
+	(no_connect
+		(at 349.25 137.16)
+		(uuid "d49e0922-a4c0-4e07-83b6-b0ae4eae9800")
+	)
+	(no_connect
+		(at 349.25 116.84)
+		(uuid "f3b49aa3-9410-4762-8c26-0fdff5cc9a03")
 	)
 	(bus_entry
 		(at 505.46 259.08)
@@ -9076,6 +8969,16 @@
 		)
 		(uuid "3050dfe4-5aea-4176-b802-8fea9ebda6fc")
 	)
+	(wire
+		(pts
+			(xy 246.38 128.27) (xy 246.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30711d64-82f1-459e-9c51-b78cc2137378")
+	)
 	(bus
 		(pts
 			(xy 166.37 83.82) (xy 166.37 247.65)
@@ -9086,6 +8989,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "30d36f05-2c78-4056-9c48-561e51f24075")
+	)
+	(wire
+		(pts
+			(xy 382.27 234.95) (xy 382.27 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312915c0-ed87-436f-9092-76eebfd2fd6a")
 	)
 	(wire
 		(pts
@@ -9299,6 +9212,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 232.41) (xy 372.11 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424558af-cfe0-4d80-8096-de7198e256af")
+	)
+	(wire
+		(pts
 			(xy 180.34 245.11) (xy 198.12 245.11)
 		)
 		(stroke
@@ -9449,6 +9372,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 210.82) (xy 382.27 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534fd259-c7cf-4c90-8cd0-eef9d7d0f624")
+	)
+	(wire
+		(pts
 			(xy 95.25 128.27) (xy 96.52 128.27)
 		)
 		(stroke
@@ -9499,6 +9432,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 234.95) (xy 382.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dedc31-694a-489d-85b1-259170f8d16f")
+	)
+	(wire
+		(pts
 			(xy 137.16 245.11) (xy 163.83 245.11)
 		)
 		(stroke
@@ -9526,6 +9469,16 @@
 			(type default)
 		)
 		(uuid "5b07e94e-d8e2-4f86-94dc-b1825bd28b4c")
+	)
+	(wire
+		(pts
+			(xy 358.14 210.82) (xy 382.27 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be85f6b-3597-40d1-8325-389071cbac94")
 	)
 	(wire
 		(pts
@@ -9699,7 +9652,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 128.27) (xy 256.54 128.27)
+			(xy 238.76 128.27) (xy 246.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9767,6 +9720,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "742a7972-3340-4faf-b306-a9c1c44491ac")
+	)
+	(wire
+		(pts
+			(xy 372.11 213.36) (xy 372.11 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749ee8b3-41e5-4956-a77d-72a35ceb6ba8")
 	)
 	(wire
 		(pts
@@ -9971,16 +9934,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 210.82) (xy 377.19 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863a5188-b7e0-4e79-b483-9da1d59b09ef")
-	)
-	(wire
-		(pts
 			(xy 358.14 205.74) (xy 406.4 205.74)
 		)
 		(stroke
@@ -10101,7 +10054,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 213.36) (xy 377.19 213.36)
+			(xy 358.14 213.36) (xy 372.11 213.36)
 		)
 		(stroke
 			(width 0)
@@ -10168,6 +10121,16 @@
 			(type default)
 		)
 		(uuid "92e273c4-d009-4d7c-a473-9ec2e0b8484c")
+	)
+	(wire
+		(pts
+			(xy 372.11 213.36) (xy 401.32 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9367dead-3c0d-45f0-a8c4-f7d65bfb31a7")
 	)
 	(wire
 		(pts
@@ -10452,6 +10415,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 210.82) (xy 401.32 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff5d2c2-18bd-481c-9759-191aac5c0ee7")
+	)
+	(wire
+		(pts
 			(xy 373.38 147.32) (xy 373.38 149.86)
 		)
 		(stroke
@@ -10634,6 +10607,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 233.68) (xy 193.04 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dcb30f-9bab-4d15-8bf9-19e84d14da14")
+	)
+	(wire
+		(pts
 			(xy 510.54 236.22) (xy 513.08 236.22)
 		)
 		(stroke
@@ -10711,6 +10694,16 @@
 			(type default)
 		)
 		(uuid "c7a8c73d-7fcf-4dd1-a419-527aa712648f")
+	)
+	(wire
+		(pts
+			(xy 246.38 128.27) (xy 256.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d9e055-c313-47b6-a882-32fd064dad51")
 	)
 	(wire
 		(pts
@@ -10951,6 +10944,16 @@
 			(type default)
 		)
 		(uuid "d8dee741-e597-490a-857a-6e9c7f6b9f91")
+	)
+	(wire
+		(pts
+			(xy 246.38 135.89) (xy 246.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99d9f79-cb29-4ead-ad91-249d8037b407")
 	)
 	(wire
 		(pts
@@ -11263,6 +11266,16 @@
 			(type default)
 		)
 		(uuid "faa9d0b1-ae16-4845-a4f8-634db4bca036")
+	)
+	(wire
+		(pts
+			(xy 382.27 232.41) (xy 382.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad8c976-c2d9-4446-ab96-5496038f6a28")
 	)
 	(wire
 		(pts
@@ -11586,7 +11599,7 @@
 		(uuid "56f4192b-485d-456a-a62f-11f0cfb4c28d")
 	)
 	(label "EXT_TRIG"
-		(at 377.19 210.82 180)
+		(at 401.32 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12275,16 +12288,6 @@
 		)
 		(uuid "ec0e806a-607c-40f8-86c9-5f0484912516")
 	)
-	(label "EXT_VREF"
-		(at 377.19 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f27c2b4c-7f3b-4267-91d8-b659f6c9ca3d")
-	)
 	(label "DIN13"
 		(at 482.6 256.54 90)
 		(effects
@@ -12325,6 +12328,28 @@
 		)
 		(uuid "fc03127c-683c-447b-83f6-c28c158c3711")
 	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 198.12 224.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b98fdfe-ed70-412b-bfea-58756502718f")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 96.52 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "661e62d3-e377-460f-a225-b8658afceea0")
+	)
 	(hierarchical_label "D[1..24]"
 		(shape bidirectional)
 		(at 41.91 81.28 180)
@@ -12335,6 +12360,39 @@
 			(justify right)
 		)
 		(uuid "726943b7-e004-44cd-8ed6-68a11296cbcb")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 196.85 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95b68226-d156-4dd8-9295-a115718a1802")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 96.52 227.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc7e058a-01d4-4890-bd9c-89ee91c237e9")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 96.52 163.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc8f49c8-efa7-405a-a06e-42d72af4ed5e")
 	)
 	(hierarchical_label "EXT_CHAIN"
 		(shape bidirectional)
@@ -12349,7 +12407,7 @@
 	)
 	(hierarchical_label "EXTVREF"
 		(shape bidirectional)
-		(at 377.19 213.36 0)
+		(at 401.32 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12357,6 +12415,17 @@
 			(justify left)
 		)
 		(uuid "f455f3d5-635d-45cd-9dc3-bb0c4198e13c")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 198.12 163.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe74a982-b553-4303-a90d-e10dbb8ee002")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12515,8 +12584,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 196.85 100.33 0)
+		(lib_id "Device:C_Small")
+		(at 246.38 133.35 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12524,30 +12594,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0761925f-e980-4f3c-b4d0-9266a563df74")
-		(property "Reference" "#PWR037"
-			(at 196.85 104.14 0)
-			(hide yes)
+		(uuid "0c1c3ac4-519a-48c3-9845-4b90caaa64e6")
+		(property "Reference" "C46"
+			(at 254.254 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VREF"
-			(at 196.85 96.774 0)
+		(property "Value" "100nF"
+			(at 254.508 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 246.38 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12558,7 +12629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 100.33 0)
+			(at 246.38 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,8 +12639,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 196.85 100.33 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12578,14 +12649,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "49855cc1-6a61-429b-9660-ed6518dc7eb5")
 		)
 		(pin "1"
-			(uuid "1dec50c6-2acb-43ea-b3f6-42ba72ee8161")
+			(uuid "4edfcd47-51e5-4c6f-955a-22e4b2d58243")
 		)
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR037")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -12779,7 +12853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 96.52 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -13216,7 +13290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-VE-ULC-0402"
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
 			(at 384.81 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13416,83 +13490,6 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 96.52 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e7e5b61-2e72-4b88-925f-2e5f4d28c132")
-		(property "Reference" "#PWR043"
-			(at 96.52 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 96.52 223.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 96.52 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9aa0b37-171e-4917-800c-8cde844ff720")
-		)
-		(instances
-			(project "LogicAnalyzer_RP2350"
-				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14609,7 +14606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN03_534269030_MOL"
+		(property "Footprint" "534269030:CONN03_534269030_MOL"
 			(at 349.25 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14696,7 +14693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-VE-ULC-0402"
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
 			(at 398.78 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -15129,83 +15126,6 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 96.52 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "548abec8-d91c-4470-8d97-ebd5daf9232c")
-		(property "Reference" "#PWR039"
-			(at 96.52 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 96.52 160.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 96.52 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "030e1559-6ae0-4b96-84ea-2abe93516fd3")
-		)
-		(instances
-			(project "LogicAnalyzer_RP2350"
-				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15647,7 +15567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16686,7 +16606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN03_534269030_MOL"
+		(property "Footprint" "534269030:CONN03_534269030_MOL"
 			(at 349.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -16740,6 +16660,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84259da8-d184-48f4-beae-9f9cfa4f67ea")
+		(property "Reference" "#PWR070"
+			(at 246.38 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "785ebf74-7a97-40ff-a569-a3dedb2fe0b3")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 382.27 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c30976-3de4-42d6-ad6b-79aaa9a0813c")
+		(property "Reference" "#PWR079"
+			(at 382.27 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.2701 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c4a8551-6ed3-4644-bfad-3973e1118827")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "82307050029-TVS-Diode_Wurth_WE-VE-ULC:0402_82307050029")
 		(at 383.54 119.38 180)
 		(unit 1)
@@ -16772,7 +16849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-VE-ULC-0402"
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
 			(at 370.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17053,83 +17130,6 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 96.52 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e5fe35b-b6f9-4baf-a4a9-e2cfffc60bfa")
-		(property "Reference" "#PWR033"
-			(at 96.52 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 96.52 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 96.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e1c223d-3642-410b-a6f0-b2b17b0424c4")
-		)
-		(instances
-			(project "LogicAnalyzer_RP2350"
-				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17740,7 +17740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 198.12 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18222,8 +18222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 198.12 163.83 0)
+		(lib_id "82307050029-TVS-Diode_Wurth_WE-VE-ULC:0402_82307050029")
+		(at 372.11 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18231,9 +18231,56 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ae00a3b9-bc3d-49e1-ad43-32e6226d044a")
-		(property "Reference" "#PWR041"
-			(at 198.12 167.64 0)
+		(uuid "b398d05a-0845-4284-b9b6-d84320349fbf")
+		(property "Reference" "D10"
+			(at 374.65 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402_82307050029"
+			(at 349.25 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
+			(at 351.79 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/82307050029.pdf?ki"
+			(at 354.33 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "WE-VE ULC ESD Suppressor"
+			(at 372.11 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18243,18 +18290,8 @@
 				)
 			)
 		)
-		(property "Value" "VREF"
-			(at 198.12 160.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 163.83 0)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 356.87 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18262,10 +18299,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 198.12 163.83 0)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 359.41 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18273,10 +18311,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 198.12 163.83 0)
+		(property "Created Date" "20250623"
+			(at 361.95 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18284,15 +18323,377 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
+		)
+		(property "Series" "WE-VE-ULC"
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "82307050029"
+			(at 367.03 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 369.57 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 372.11 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VDC (V)" "5"
+			(at 374.65 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ILeak (uA)" "0.05"
+			(at 377.19 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh Clamp ESD min. (V)" "17"
+			(at 379.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VTrig ESD (V)" "100"
+			(at 382.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Application" "USB 2.0 HDMI DVI Firewire Antennas"
+			(at 384.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "5 V"
+			(at 374.65 228.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "c256a0a4-7a86-4f26-9857-917c49accfcb")
 		)
 		(pin "1"
-			(uuid "2dfed672-5a0d-4e50-a488-93cd27ffec28")
+			(uuid "ed8b39a3-c3bf-474c-b4c9-bdd053671539")
 		)
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR041")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "82307050029-TVS-Diode_Wurth_WE-VE-ULC:0402_82307050029")
+		(at 382.27 227.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5b082a5-f59d-4c7f-992f-83bf93aaac67")
+		(property "Reference" "D13"
+			(at 384.81 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402_82307050029"
+			(at 359.41 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
+			(at 361.95 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/82307050029.pdf?ki"
+			(at 364.49 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "WE-VE ULC ESD Suppressor"
+			(at 382.27 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 367.03 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 369.57 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20250623"
+			(at 372.11 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WE-VE-ULC"
+			(at 374.65 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "82307050029"
+			(at 377.19 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 379.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 382.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VDC (V)" "5"
+			(at 384.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ILeak (uA)" "0.05"
+			(at 387.35 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VCh Clamp ESD min. (V)" "17"
+			(at 389.89 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VTrig ESD (V)" "100"
+			(at 392.43 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Application" "USB 2.0 HDMI DVI Firewire Antennas"
+			(at 394.97 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Critical Parameter" "5 V"
+			(at 384.81 228.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "22b3f927-bcce-4fc4-9a6e-ea16aa3ba9a2")
+		)
+		(pin "1"
+			(uuid "742fc800-38d2-44c1-91af-eeaf0560f973")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -18485,7 +18886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 198.12 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20154,7 +20555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-VE-ULC-0402"
+		(property "Footprint" "82307050029-TVS-Diode_Wurth_WE-VE-ULC:D_Wurth_WE-VE-ULC-0402"
 			(at 379.73 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -20467,7 +20868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 96.52 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -20667,7 +21068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP_0104PWR_TEX"
+		(property "Footprint" "TXU0104PWR:TSSOP_0104PWR_TEX"
 			(at 198.12 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -20785,7 +21186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSW-106-02-TM-S-RA:SAMTEC_SSW-106-02-TM-S-RA"
+		(property "Footprint" "SSW_106_02_TM_S_RA:SAMTEC_SSW-106-02-TM-S-RA"
 			(at 345.44 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -20877,83 +21278,6 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 198.12 224.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f527fdf7-2f89-446c-a29a-2c0439dc5eb5")
-		(property "Reference" "#PWR045"
-			(at 198.12 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 198.12 221.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 198.12 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c790a2c-d1ca-4234-a273-ab22e3439446")
-		)
-		(instances
-			(project "LogicAnalyzer_RP2350"
-				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/d8a2af0e-dea5-48dd-840f-5c1357943d7a"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

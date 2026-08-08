@@ -539,30 +539,37 @@
         "wire_width": 6
       },
       {
+        "name": "GROUND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 132, 132)",
+        "tuning_profile": ""
+      },
+      {
         "name": "LOGIC INPUTS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 3,
         "schematic_color": "rgb(132, 0, 132)",
         "tuning_profile": ""
       },
       {
         "name": "MEMORY",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 1,
         "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": ""
       },
       {
         "name": "POWER",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
       },
       {
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 194)",
         "tuning_profile": ""
       }
@@ -644,6 +651,10 @@
       {
         "netclass": "POWER",
         "pattern": "/USB & POWER/VBUS_FILT"
+      },
+      {
+        "netclass": "GROUND",
+        "pattern": "GND"
       }
     ]
   },

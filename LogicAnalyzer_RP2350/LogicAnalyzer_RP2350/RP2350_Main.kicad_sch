@@ -36,7 +36,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "AOTAB201610S3R3101T"
+			(property "Footprint" "ABRACON AOTA-B201610S3R3-101-T:AOTAB201610S3R3101T"
 				(at 16.51 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -915,7 +915,251 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_RaspberryPi:RP2350A"
+		(symbol "Memory W25Q128JVS:W25Q128JVS_Abin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U4"
+				(at 11.43 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "W25Q128JVS_Abin"
+				(at 11.43 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+				(at 0 27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flash memory SPI QPI DTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "W25Q128JVS_Abin_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25Q128JVS_Abin_1_1"
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DO/IO_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "~{WP}/IO_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "DI/IO_{0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}/~{RESET}/IO_{3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RP2350A_Abin:RP2350A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -943,7 +1187,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 				(at -1.3813 -8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1071,7 +1315,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -25.4 26.67 0)
 					(length 3.81)
 					(name "VREG_AVDD"
@@ -1961,7 +2205,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -25.4 21.59 0)
 					(length 3.81)
 					(name "VREG_FB"
@@ -2144,250 +2388,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
-				(at 11.43 1.2701 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "W25Q128JVS"
-				(at 11.43 -1.2699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-				(at 0 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-				(at 0 27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "W25Q128JVS_1_1"
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DO/IO_{1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "~{WP}/IO_{2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "DI/IO_{0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{HOLD}/~{RESET}/IO_{3}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SM03B-SRSS-TB:SM03B-SRSS-TB"
 			(body_styles demorgan)
 			(pin_names
@@ -2418,7 +2418,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
+			(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2642,7 +2642,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -2660,7 +2660,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -2678,7 +2678,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
@@ -3820,12 +3820,6 @@
 		(uuid "cff3252d-6dcb-447d-8376-8e12aa7b6841")
 	)
 	(junction
-		(at 203.2 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d57a0e41-aabf-4487-9fe1-8ba6f6c016e3")
-	)
-	(junction
 		(at 91.44 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3846,22 +3840,6 @@
 	(no_connect
 		(at 228.6 166.37)
 		(uuid "044bdfc8-aa3d-4f67-b3ba-2d86efd7a79f")
-	)
-	(no_connect
-		(at 228.6 156.21)
-		(uuid "1dd98d7b-8128-47ad-afb7-ff306f75c6fb")
-	)
-	(no_connect
-		(at 228.6 153.67)
-		(uuid "454c4d84-72a1-4279-933f-9cb6b7081f42")
-	)
-	(no_connect
-		(at 228.6 158.75)
-		(uuid "a0ad1bc2-c29e-438e-8215-5e0345b4774e")
-	)
-	(no_connect
-		(at 228.6 161.29)
-		(uuid "a64d838a-e088-4050-bcfb-7d5fe0a1290e")
 	)
 	(no_connect
 		(at 228.6 171.45)
@@ -3947,6 +3925,15 @@
 			(type default)
 		)
 		(uuid "351730d6-b525-40b9-80ff-792b79045415")
+	)
+	(bus_entry
+		(at 309.88 156.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368e8e73-6fe6-41db-92ff-41fe1a75c991")
 	)
 	(bus_entry
 		(at 307.34 115.57)
@@ -4066,6 +4053,15 @@
 		(uuid "74a8b00c-66c4-4d86-a035-6140c24b7fc8")
 	)
 	(bus_entry
+		(at 309.88 158.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7533265a-c171-4e42-8e32-a5775856229d")
+	)
+	(bus_entry
 		(at 307.34 176.53)
 		(size 2.54 -2.54)
 		(stroke
@@ -4109,6 +4105,15 @@
 			(type default)
 		)
 		(uuid "93f5adf1-ed41-41d1-9233-e4ec832d8134")
+	)
+	(bus_entry
+		(at 309.88 153.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96228720-18ff-41ab-8b84-cf428b843f90")
 	)
 	(bus_entry
 		(at 307.34 130.81)
@@ -4199,6 +4204,15 @@
 			(type default)
 		)
 		(uuid "cd43a20c-9bec-4031-97e3-d19cdbe4e9a1")
+	)
+	(bus_entry
+		(at 309.88 151.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b79ddb-0693-46ce-a651-b2894078ab9f")
 	)
 	(bus_entry
 		(at 307.34 138.43)
@@ -4386,6 +4400,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 167.64) (xy 53.34 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce1f169-2de1-4ffe-a5ae-3e6e2b9d8feb")
+	)
+	(wire
+		(pts
 			(xy 87.63 144.78) (xy 87.63 146.05)
 		)
 		(stroke
@@ -4503,6 +4527,16 @@
 			(type default)
 		)
 		(uuid "1782b08c-cd14-4968-adf5-309c6134e7ff")
+	)
+	(wire
+		(pts
+			(xy 228.6 161.29) (xy 276.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196e9627-87f1-43aa-8d5a-1a1d7ff62af5")
 	)
 	(wire
 		(pts
@@ -4723,6 +4757,16 @@
 			(type default)
 		)
 		(uuid "3379329c-f5b7-4b0e-930a-3d8ee8e44635")
+	)
+	(wire
+		(pts
+			(xy 228.6 153.67) (xy 276.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344ff8de-ea20-454c-943b-c8dd14728286")
 	)
 	(wire
 		(pts
@@ -5196,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 161.29) (xy 307.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b04a14c-cf5d-4a66-bd1e-eb1669670e5d")
+	)
+	(wire
+		(pts
 			(xy 165.1 80.01) (xy 165.1 107.95)
 		)
 		(stroke
@@ -5343,6 +5397,16 @@
 			(type default)
 		)
 		(uuid "9004b705-f10c-4f47-ba82-59fa821076c9")
+	)
+	(wire
+		(pts
+			(xy 228.6 158.75) (xy 276.86 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9094b659-8fbb-4deb-8f9b-520ea66b8b3c")
 	)
 	(wire
 		(pts
@@ -5726,6 +5790,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 153.67) (xy 307.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba46cf1b-3b87-4680-9c0e-aac208494558")
+	)
+	(wire
+		(pts
 			(xy 281.94 179.07) (xy 307.34 179.07)
 		)
 		(stroke
@@ -5813,6 +5887,26 @@
 			(type default)
 		)
 		(uuid "c2640d47-a07e-43af-b80e-b302f9facc97")
+	)
+	(wire
+		(pts
+			(xy 281.94 158.75) (xy 307.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c362b75a-4de3-46a3-9401-14bb1a5dca7c")
+	)
+	(wire
+		(pts
+			(xy 281.94 156.21) (xy 307.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5369e85-d175-4c6d-a44b-f7d8c4969985")
 	)
 	(wire
 		(pts
@@ -6013,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "dc3b132e-fa38-4153-ab39-14acb000ec6e")
+	)
+	(wire
+		(pts
+			(xy 228.6 156.21) (xy 276.86 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc86850f-694c-4e97-b7b4-6ecf3205fe72")
 	)
 	(wire
 		(pts
@@ -6304,7 +6408,7 @@
 		)
 		(uuid "04849af5-4b48-4f0b-94bc-2fa98bc18ae7")
 	)
-	(label "D18"
+	(label "D22"
 		(at 300.99 176.53 0)
 		(effects
 			(font
@@ -6484,6 +6588,16 @@
 		)
 		(uuid "29ab8581-d346-4f23-ba6b-fbb22d1ccae2")
 	)
+	(label "D17"
+		(at 300.99 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ca71a2d-f417-45f4-a436-f73fbad9b9f3")
+	)
 	(label "SC"
 		(at 111.76 199.39 0)
 		(effects
@@ -6514,6 +6628,16 @@
 		)
 		(uuid "4ec09d8e-0a26-4f44-93c1-5b39bb6f083f")
 	)
+	(label "QSPI_SCLK"
+		(at 33.02 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64aea3db-598d-4d8b-b551-73bf1aebd2a4")
+	)
 	(label "SD"
 		(at 111.76 204.47 0)
 		(effects
@@ -6534,16 +6658,6 @@
 		)
 		(uuid "66240ec5-ae2b-441f-859b-d3aa7c210d32")
 	)
-	(label "{D[1..24]}"
-		(at 334.01 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ada41ec-6771-47f5-ab66-41ffc8935fe0")
-	)
 	(label "D9"
 		(at 300.99 133.35 0)
 		(effects
@@ -6553,6 +6667,16 @@
 			(justify left bottom)
 		)
 		(uuid "6daa8f4d-f7f8-4ae3-96be-feb70e2af7ad")
+	)
+	(label "GP18"
+		(at 232.41 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710ef292-c1fa-4ab2-a59c-40cc8196a893")
 	)
 	(label "GP15"
 		(at 232.41 146.05 0)
@@ -6614,7 +6738,7 @@
 		)
 		(uuid "7e27706e-6930-4515-a098-9569ec9f96c4")
 	)
-	(label "D19"
+	(label "D23"
 		(at 300.99 179.07 0)
 		(effects
 			(font
@@ -6623,6 +6747,16 @@
 			(justify left bottom)
 		)
 		(uuid "80216faf-7e24-42b6-a879-30ab4ed2b6d5")
+	)
+	(label "D20"
+		(at 300.99 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81711d62-45d3-411b-9888-2a057f3fce1e")
 	)
 	(label "D6"
 		(at 300.99 125.73 0)
@@ -6633,16 +6767,6 @@
 			(justify left bottom)
 		)
 		(uuid "8bea6b9c-804c-4069-8e01-3b3c49066931")
-	)
-	(label "D2"
-		(at 300.99 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96813367-8d1b-4508-9e43-2094aa3413f6")
 	)
 	(label "QSPI_SD1"
 		(at 88.9 162.56 180)
@@ -6684,16 +6808,6 @@
 		)
 		(uuid "ab3284cb-41f1-451f-ab7c-78b2c3c720e6")
 	)
-	(label "D4"
-		(at 300.99 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac77a231-126b-48b9-acc0-03cb2ede8c49")
-	)
 	(label "GP11"
 		(at 232.41 135.89 0)
 		(effects
@@ -6704,7 +6818,7 @@
 		)
 		(uuid "b0e42a66-7013-406e-bb3e-3fa4bcf3e1f2")
 	)
-	(label "D20"
+	(label "D24"
 		(at 300.99 181.61 0)
 		(effects
 			(font
@@ -6765,6 +6879,26 @@
 		)
 		(uuid "ba70bc07-c36b-4dbd-9b1d-c62b8b441c42")
 	)
+	(label "GP19"
+		(at 232.41 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c104838f-d771-4cd2-b08e-474f4ddbf9a1")
+	)
+	(label "D18"
+		(at 300.99 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3b4d58d-a6cb-4f2a-b015-52b699152e49")
+	)
 	(label "GP2"
 		(at 232.41 113.03 0)
 		(effects
@@ -6805,6 +6939,16 @@
 		)
 		(uuid "d09e4156-4441-465b-a162-b7b58cb5fb9a")
 	)
+	(label "GP20"
+		(at 232.41 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3cebdb5-59e4-41ed-9d42-8691544a42c3")
+	)
 	(label "D10"
 		(at 300.99 135.89 0)
 		(effects
@@ -6824,6 +6968,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4829aa6-bd2e-4271-a78f-199062346aae")
+	)
+	(label "D19"
+		(at 300.99 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5ff3065-afe6-483e-af71-8ee3e87ed0c4")
 	)
 	(label "QSPI_SS"
 		(at 166.37 143.51 0)
@@ -6854,6 +7008,16 @@
 			(justify left bottom)
 		)
 		(uuid "df06fc04-7683-42b4-9bb6-d78f293e21c1")
+	)
+	(label "GP21"
+		(at 232.41 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d4f1e3-e0ef-4e5a-b95b-4da05a0c126d")
 	)
 	(label "QSPI_SD0"
 		(at 166.37 148.59 0)
@@ -6895,7 +7059,7 @@
 		)
 		(uuid "ed1d014b-53d9-4f17-94fe-7900f83589f6")
 	)
-	(label "D17"
+	(label "D21"
 		(at 300.99 163.83 0)
 		(effects
 			(font
@@ -7386,6 +7550,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 279.4 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cbdeaf8-18b0-4b6f-8eca-18bad10a0ca8")
+		(property "Reference" "R48"
+			(at 283.464 155.194 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 288.036 155.194 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 279.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 279.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "afc51670-5ad6-49a5-b0eb-01a04d04dc24")
+		)
+		(pin "1"
+			(uuid "d3af3df2-c03e-4049-a856-ac9e6aef3b05")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Crystal-4Pins:Crystal_4Pins")
 		(at 129.54 161.29 0)
 		(unit 1)
@@ -7674,7 +7917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
 			(at 49.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7685,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
 			(at 54.61 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7947,6 +8190,85 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 279.4 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27e945cd-4527-42e4-aa16-171fc4a07b7f")
+		(property "Reference" "R49"
+			(at 283.464 157.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 288.036 157.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 279.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab4e12b3-d81e-495b-bc3e-07a6fe8c2955")
+		)
+		(pin "1"
+			(uuid "41d17ebb-746b-42bd-90ec-9d052fa6c989")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9137,6 +9459,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 279.4 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66831d6b-4e4a-454a-92b1-e3c1312d01f1")
+		(property "Reference" "R50"
+			(at 283.464 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 288.036 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 279.4 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb842d19-18e6-4f8e-aa5e-e41f9626955f")
+		)
+		(pin "1"
+			(uuid "b5e97f4b-a151-49db-8fd4-97b8c4833e82")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 146.05 0)
 		(unit 1)
@@ -9485,7 +9886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AOTAB201610S3R3101T"
+		(property "Footprint" "ABRACON AOTA-B201610S3R3-101-T:AOTAB201610S3R3101T"
 			(at 23.19 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9717,7 +10118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
 			(at 128.27 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +10129,7 @@
 				)
 			)
 		)
-		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
 			(at 128.27 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10113,7 +10514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 107.95 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -11516,7 +11917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_RaspberryPi:RP2350A")
+		(lib_id "RP2350A_Abin:RP2350A")
 		(at 203.2 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -11528,7 +11929,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1523e91-d78b-4f4b-8197-85e506ec8a09")
 		(property "Reference" "U3"
-			(at 199.39 144.526 0)
+			(at 205.3433 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11539,7 +11940,7 @@
 			)
 		)
 		(property "Value" "RP2350A"
-			(at 199.644 147.066 0)
+			(at 205.3433 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11549,7 +11950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 201.8187 142.748 0)
 			(hide yes)
 			(show_name no)
@@ -12030,7 +12431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
+		(lib_id "Memory W25Q128JVS:W25Q128JVS_Abin")
 		(at 66.04 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -12043,25 +12444,25 @@
 		(fields_autoplaced yes)
 		(uuid "be549ea9-8e74-4e64-abc4-fc2a61378313")
 		(property "Reference" "U4"
-			(at 54.61 163.8299 0)
+			(at 69.1581 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 54.61 166.3699 0)
+			(at 69.1581 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
@@ -13320,6 +13721,85 @@
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 279.4 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3980388-b78c-4b78-a3f1-7e7ed10646c6")
+		(property "Reference" "R47"
+			(at 283.21 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 287.782 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 279.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 279.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "239e7e05-a62b-45da-9f59-e706ceca86ff")
+		)
+		(pin "1"
+			(uuid "ae025c3b-b5c1-4787-8c24-bb6ea338ea90")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959/08028c02-6110-45a5-bc16-9b1936572182"
+					(reference "R47")
 					(unit 1)
 				)
 			)

@@ -4,10 +4,417 @@
 	(generator_version "10.0")
 	(uuid "d75f24d0-99d8-459e-8e7b-473191ec3959")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Assembly_Wurth_WA-SMSI:9774050151R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "9774050151R"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Assembly_SMD_Wurth:A_Wurth_WA-SMSI_9774050151R"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151R.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "SMT Steel Spacer with internal Thread M2.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20251217"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WA-SMSI"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "9774050151R"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "L (mm)" "5.0"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ti" "M2.5"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ø ID (mm)" "3.5"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Ø OD (mm)" "5.1"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WA-SMSI*9774050151R*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "9774050151R_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "9774050151R_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 63.5 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4077a990-d996-43b5-84d4-d76f78c200f9")
+	)
+	(junction
+		(at 63.5 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a552d02-465a-4aab-a8a3-ddd6c618f79b")
+	)
+	(junction
+		(at 63.5 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa77e73-0017-4684-aaee-dd23b0e0a4b4")
+	)
 	(wire
 		(pts
-			(xy 66.04 46.99) (xy 87.63 46.99)
+			(xy 63.5 138.43) (xy 72.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03465395-c768-44ac-8ade-84b9ccc391d4")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 72.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03564309-5e95-4feb-8c92-89b32ba0db2c")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 72.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c90152-7281-4936-be19-76dd2799292b")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +424,37 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 137.16 50.8)
+			(xy 191.77 93.98) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6cf4d3-3671-4e4a-ad65-c2a9e71196a5")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 63.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59810aa6-952c-41cf-8741-0e1ed7920dd3")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 63.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62135b20-fc7f-4564-bd4e-b4391ca17dc6")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -25,9 +462,19 @@
 		)
 		(uuid "7839dd65-4989-4e52-bfeb-d0931abae907")
 	)
+	(wire
+		(pts
+			(xy 63.5 146.05) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990d1352-cf13-4dfd-85c2-a06afde716ae")
+	)
 	(bus
 		(pts
-			(xy 119.38 46.99) (xy 137.16 46.99)
+			(xy 144.78 91.44) (xy 162.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +484,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 46.99) (xy 184.15 46.99)
+			(xy 63.5 146.05) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ddc89e-9326-439c-9f75-e0ec9921e86a")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +504,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 87.63 43.18)
+			(xy 91.44 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +514,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 50.8) (xy 87.63 50.8)
+			(xy 63.5 153.67) (xy 63.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ea1eac-bace-4c62-8075-07d9b3e71d3d")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 113.03 95.25)
 		)
 		(stroke
 			(width 0)
@@ -65,8 +532,894 @@
 		)
 		(uuid "facb9916-1d36-4a10-b324-0f6f737329f2")
 	)
+	(symbol
+		(lib_id "Assembly_Wurth_WA-SMSI:9774050151R")
+		(at 77.47 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09d8feba-c7e7-4d06-ab91-31d791e6c758")
+		(property "Reference" "A4"
+			(at 81.28 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774050151R"
+			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Assembly_SMD_Wurth:A_Wurth_WA-SMSI_9774050151R"
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151R.pdf?ki"
+			(at 90.17 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Steel Spacer with internal Thread M2.5"
+			(at 77.47 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 90.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251217"
+			(at 90.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WA-SMSI"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "9774050151R"
+			(at 90.17 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 90.17 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "5.0"
+			(at 90.17 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ti" "M2.5"
+			(at 90.17 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø ID (mm)" "3.5"
+			(at 90.17 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø OD (mm)" "5.1"
+			(at 90.17 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8970b4cd-0298-477b-8c7d-6d3d1d08662c")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Assembly_Wurth_WA-SMSI:9774050151R")
+		(at 77.47 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6bfa7c-24d0-43b2-a972-91f9a17d8f3e")
+		(property "Reference" "A3"
+			(at 81.28 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774050151R"
+			(at 90.17 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Assembly_SMD_Wurth:A_Wurth_WA-SMSI_9774050151R"
+			(at 90.17 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151R.pdf?ki"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Steel Spacer with internal Thread M2.5"
+			(at 77.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251217"
+			(at 90.17 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WA-SMSI"
+			(at 90.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "9774050151R"
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 90.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "5.0"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ti" "M2.5"
+			(at 90.17 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø ID (mm)" "3.5"
+			(at 90.17 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø OD (mm)" "5.1"
+			(at 90.17 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1e0ca141-cb1a-40c2-ba97-af01ec699d35")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Assembly_Wurth_WA-SMSI:9774050151R")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df56087-be27-412d-9349-7ba4985cd975")
+		(property "Reference" "A1"
+			(at 81.28 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774050151R"
+			(at 90.17 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Assembly_SMD_Wurth:A_Wurth_WA-SMSI_9774050151R"
+			(at 90.17 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151R.pdf?ki"
+			(at 90.17 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Steel Spacer with internal Thread M2.5"
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 90.17 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 90.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251217"
+			(at 90.17 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WA-SMSI"
+			(at 90.17 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "9774050151R"
+			(at 90.17 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "5.0"
+			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ti" "M2.5"
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø ID (mm)" "3.5"
+			(at 90.17 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø OD (mm)" "5.1"
+			(at 90.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4b9edd2f-7813-4978-b2ab-a9ca60f54661")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b76c178-b015-4fba-abed-8afb15a197ee")
+		(property "Reference" "#PWR06"
+			(at 63.5 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3f266c8-16bd-470d-8c2c-e22e042cde9e")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Assembly_Wurth_WA-SMSI:9774050151R")
+		(at 77.47 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac108c8-5592-4ee7-a22b-5083dffe1150")
+		(property "Reference" "A2"
+			(at 81.28 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774050151R"
+			(at 90.17 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Assembly_SMD_Wurth:A_Wurth_WA-SMSI_9774050151R"
+			(at 90.17 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151R.pdf?ki"
+			(at 90.17 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SMT Steel Spacer with internal Thread M2.5"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 90.17 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 90.17 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Created Date" "20251217"
+			(at 90.17 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Series" "WA-SMSI"
+			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Part Number" "9774050151R"
+			(at 90.17 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 90.17 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "L (mm)" "5.0"
+			(at 90.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ti" "M2.5"
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø ID (mm)" "3.5"
+			(at 90.17 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Ø OD (mm)" "5.1"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f798ccce-62d0-4a32-9d4b-bca42ffbd398")
+		)
+		(instances
+			(project "LogicAnalyzer_RP2350"
+				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 87.63 30.48)
+		(at 113.03 74.93)
 		(size 31.75 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -83,7 +1436,7 @@
 		)
 		(uuid "08028c02-6110-45a5-bc16-9b1936572182")
 		(property "Sheetname" "RP2350_Main"
-			(at 87.63 29.7684 0)
+			(at 113.03 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -94,7 +1447,7 @@
 			)
 		)
 		(property "Sheetfile" "RP2350_Main.kicad_sch"
-			(at 87.63 67.8946 0)
+			(at 113.03 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -105,7 +1458,7 @@
 			)
 		)
 		(pin "USB_N" bidirectional
-			(at 87.63 43.18 180)
+			(at 113.03 87.63 180)
 			(uuid "1eadf65c-18bc-4b49-908a-7ff26445059b")
 			(effects
 				(font
@@ -115,7 +1468,7 @@
 			)
 		)
 		(pin "USB_P" bidirectional
-			(at 87.63 46.99 180)
+			(at 113.03 91.44 180)
 			(uuid "e9827131-680e-47d3-8e57-b14e18bed36a")
 			(effects
 				(font
@@ -125,7 +1478,7 @@
 			)
 		)
 		(pin "VBUS_SENSE" bidirectional
-			(at 87.63 50.8 180)
+			(at 113.03 95.25 180)
 			(uuid "c6bd8d98-23f8-40e0-9d15-4ae9ba3e5ae1")
 			(effects
 				(font
@@ -135,7 +1488,7 @@
 			)
 		)
 		(pin "D[1..24]" bidirectional
-			(at 119.38 46.99 0)
+			(at 144.78 91.44 0)
 			(uuid "795c0733-7a84-4433-a7d1-03143e3b8c30")
 			(effects
 				(font
@@ -145,7 +1498,7 @@
 			)
 		)
 		(pin "EXT_CHAIN" bidirectional
-			(at 119.38 50.8 0)
+			(at 144.78 95.25 0)
 			(uuid "2e95eed3-aaee-474f-be48-05c54584260e")
 			(effects
 				(font
@@ -163,7 +1516,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 30.48)
+		(at 209.55 74.93)
 		(size 30.48 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -179,7 +1532,7 @@
 		)
 		(uuid "68c34580-4572-474c-bc8b-c0b67926a418")
 		(property "Sheetname" "FrontPanelInterface"
-			(at 184.15 29.7684 0)
+			(at 209.55 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,7 +1543,7 @@
 			)
 		)
 		(property "Sheetfile" "FrontPanelInterface.kicad_sch"
-			(at 184.15 67.8946 0)
+			(at 209.55 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -201,7 +1554,7 @@
 			)
 		)
 		(pin "EXTVREF" bidirectional
-			(at 184.15 46.99 180)
+			(at 209.55 91.44 180)
 			(uuid "da0f8c43-614e-4444-9387-d8ec03d95811")
 			(effects
 				(font
@@ -210,19 +1563,9 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" bidirectional
-			(at 184.15 57.15 180)
-			(uuid "89bc4a58-5853-476c-847b-e6aef2896943")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" bidirectional
-			(at 184.15 59.69 180)
-			(uuid "6a97641a-154c-47a8-8003-2b29505b2b4a")
+		(pin "VREF" output
+			(at 209.55 93.98 180)
+			(uuid "d4b589d6-6033-47ce-a3f1-5f970f41949d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +1582,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 30.48)
+		(at 57.15 74.93)
 		(size 34.29 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -256,7 +1599,7 @@
 		)
 		(uuid "805e660b-1486-4481-a006-02fc919054bd")
 		(property "Sheetname" "USB & POWER"
-			(at 31.75 29.7684 0)
+			(at 57.15 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -267,7 +1610,7 @@
 			)
 		)
 		(property "Sheetfile" "USB & POWER.kicad_sch"
-			(at 31.75 67.8946 0)
+			(at 57.15 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -278,7 +1621,7 @@
 			)
 		)
 		(pin "USB_N" bidirectional
-			(at 66.04 43.18 0)
+			(at 91.44 87.63 0)
 			(uuid "ef936873-4049-4fa2-9b59-61e1c3c0966b")
 			(effects
 				(font
@@ -288,7 +1631,7 @@
 			)
 		)
 		(pin "USB_P" bidirectional
-			(at 66.04 46.99 0)
+			(at 91.44 91.44 0)
 			(uuid "0a2ce058-676d-4f9d-93fd-2e8c0e506b57")
 			(effects
 				(font
@@ -298,7 +1641,7 @@
 			)
 		)
 		(pin "VBUS_SENSE" bidirectional
-			(at 66.04 50.8 0)
+			(at 91.44 95.25 0)
 			(uuid "7153a3c0-bb59-487a-adab-276921d006d3")
 			(effects
 				(font
@@ -316,7 +1659,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 30.48)
+		(at 162.56 74.93)
 		(size 29.21 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -332,7 +1675,7 @@
 		)
 		(uuid "d8a2af0e-dea5-48dd-840f-5c1357943d7a")
 		(property "Sheetname" "LevelShifters"
-			(at 137.16 29.7684 0)
+			(at 162.56 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -343,7 +1686,7 @@
 			)
 		)
 		(property "Sheetfile" "LevelShifters.kicad_sch"
-			(at 137.16 67.8946 0)
+			(at 162.56 112.3446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -354,7 +1697,7 @@
 			)
 		)
 		(pin "D[1..24]" bidirectional
-			(at 137.16 46.99 180)
+			(at 162.56 91.44 180)
 			(uuid "df1e92d4-934c-47cf-b336-c77c302d68bc")
 			(effects
 				(font
@@ -364,7 +1707,7 @@
 			)
 		)
 		(pin "EXT_CHAIN" bidirectional
-			(at 137.16 50.8 180)
+			(at 162.56 95.25 180)
 			(uuid "141c4e7b-22ae-4c77-afef-42efe8f6b3ec")
 			(effects
 				(font
@@ -374,8 +1717,18 @@
 			)
 		)
 		(pin "EXTVREF" bidirectional
-			(at 166.37 46.99 0)
+			(at 191.77 91.44 0)
 			(uuid "6ce799ba-6476-4147-b182-3442dc2b04cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF" input
+			(at 191.77 93.98 0)
+			(uuid "b2da3442-2370-4d19-a63f-10d5f6c5c8a9")
 			(effects
 				(font
 					(size 1.27 1.27)

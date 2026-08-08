@@ -1150,7 +1150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b76c178-b015-4fba-abed-8afb15a197ee")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 63.5 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -1210,7 +1210,7 @@
 		(instances
 			(project "LogicAnalyzer_RP2350"
 				(path "/d75f24d0-99d8-459e-8e7b-473191ec3959"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1457,26 +1457,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_N" bidirectional
-			(at 113.03 87.63 180)
-			(uuid "1eadf65c-18bc-4b49-908a-7ff26445059b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_P" bidirectional
-			(at 113.03 91.44 180)
-			(uuid "e9827131-680e-47d3-8e57-b14e18bed36a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VBUS_SENSE" bidirectional
 			(at 113.03 95.25 180)
 			(uuid "c6bd8d98-23f8-40e0-9d15-4ae9ba3e5ae1")
@@ -1505,6 +1485,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB+" bidirectional
+			(at 113.03 87.63 180)
+			(uuid "c54ecf4b-212d-4453-b216-263aeb89ab1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-" bidirectional
+			(at 113.03 91.44 180)
+			(uuid "b650845b-3187-4d05-9053-cc4cb5206530")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1620,29 +1620,29 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_N" bidirectional
-			(at 91.44 87.63 0)
-			(uuid "ef936873-4049-4fa2-9b59-61e1c3c0966b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_P" bidirectional
-			(at 91.44 91.44 0)
-			(uuid "0a2ce058-676d-4f9d-93fd-2e8c0e506b57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBUS_SENSE" bidirectional
 			(at 91.44 95.25 0)
 			(uuid "7153a3c0-bb59-487a-adab-276921d006d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-" bidirectional
+			(at 91.44 91.44 0)
+			(uuid "0cf874d6-bca6-490a-83bb-61357abca7d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB+" bidirectional
+			(at 91.44 87.63 0)
+			(uuid "3a1bc6e3-8587-4432-ae4c-842e224ad4a2")
 			(effects
 				(font
 					(size 1.27 1.27)

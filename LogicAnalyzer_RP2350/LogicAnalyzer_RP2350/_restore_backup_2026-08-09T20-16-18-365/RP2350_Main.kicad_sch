@@ -2643,6 +2643,42 @@
 					)
 				)
 				(pin passive line
+					(at 8.89 6.35 270)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -11.43 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -2689,42 +2725,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 6.35 270)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -11.43 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10724,10 +10724,10 @@
 		(pin "1"
 			(uuid "6390d1c7-8f48-4989-8258-b2510c10561b")
 		)
-		(pin "MP"
+		(pin ""
 			(uuid "4010015f-59fe-4cc0-9f24-4a67d8b24f9d")
 		)
-		(pin "MP"
+		(pin ""
 			(uuid "89075fad-4726-4157-8ed4-c2277e0b779e")
 		)
 		(instances

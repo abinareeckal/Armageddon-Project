@@ -205,12 +205,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/46a82774-513b-4cff-a1bd-684385d41c42")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -352,12 +346,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/d36713d1-c436-4e0a-a3ac-554e2ec3735e")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -670,12 +658,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/27e945cd-4527-42e4-aa16-171fc4a07b7f")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -817,12 +799,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/38452111-dfa7-4a30-b750-f42571f31d41")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "3" "4" "GND_VIA" "7" "5" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1289,26 +1265,20 @@
 			(pintype "power_in")
 			(uuid "8f9d280d-2bcb-4d58-af83-67ca0ceafe45")
 		)
-		(pad "GND_VIA" thru_hole circle
+		(pad "V" thru_hole circle
 			(at 0 -0.3937)
 			(size 0.508 0.508)
 			(drill 0.254)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_GND_VIA")
-			(pintype "power_in")
 			(uuid "e273f2a1-7089-462d-aa61-a145cc5228de")
 		)
-		(pad "GND_VIA" thru_hole circle
+		(pad "V" thru_hole circle
 			(at 0 0.3937)
 			(size 0.508 0.508)
 			(drill 0.254)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_GND_VIA")
-			(pintype "power_in")
 			(uuid "424cdd4d-3393-4a79-961a-df70d42a3af4")
 		)
 		(embedded_fonts no)
@@ -1390,12 +1360,6 @@
 		(path "/922e41cc-ea08-4ea7-8248-d5855e0ad131")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1507,12 +1471,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/88aa80b3-3fc6-4be5-9bec-9803957e1db8")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1665,12 +1623,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/aa9fb845-8deb-4499-8243-fbe9acea41d0")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1823,12 +1775,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/a8e8cbf4-afd2-4d95-878b-0aa280a9b268")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1981,12 +1927,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/02bf924b-d275-4332-b5df-e905cff4028a")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2139,12 +2079,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/a6bcbd6a-1750-47cb-aea1-990f7278e900")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2297,12 +2231,6 @@
 		(path "/7af6babe-0254-49ae-96fc-1de53fecfddf")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2414,12 +2342,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/ed3f01f2-01ea-4256-a6e2-f724f7fc8682")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2732,12 +2654,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/edbc9e95-7e7e-47c1-8fa9-4cceef6e5a6a")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2891,12 +2807,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/283f7ea6-7506-4e0b-8c38-cc8a6aa790c2")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3049,12 +2959,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/66831d6b-4e4a-454a-92b1-e3c1312d01f1")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3207,12 +3111,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/a8f1ef64-0d9a-4bcf-88b3-c3043f29b4f3")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3365,12 +3263,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/5de4baf5-ca4a-4942-8424-28bd3efa99e6")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3523,12 +3415,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/f95befec-de73-490e-a36f-4f26a66b2ddd")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3681,12 +3567,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/dd22ce1a-fdf5-4188-bff2-87769952ec0a")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3839,12 +3719,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/087fe7a3-b2ed-44f9-b5f9-2074468c707e")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3997,12 +3871,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/781eb5e1-2978-41a8-b9ac-a7977adfebb4")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4315,12 +4183,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/298995dd-02d4-406a-af5f-16fedac9765f")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4474,12 +4336,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/94d31c49-4ea0-4e07-a71e-142c82207058")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4632,12 +4488,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/605c9134-a79b-44f1-bfcf-45452f50dccc")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4911,12 +4761,6 @@
 		(path "/1b6bfa7c-24d0-43b2-a972-91f9a17d8f3e")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -5193,12 +5037,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/6140cd0b-8709-490d-891a-cac4d97971ad")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5351,12 +5189,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/cd294b25-a634-43ff-9c53-2e73c15b8015")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5533,12 +5365,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/f34f38ce-3bfa-4925-8f2b-89591bc44826")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "01" "02" "03" "04" "05" "06")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5864,12 +5690,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/62d63628-8e67-413a-a984-93faaf6e6aa9")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6022,12 +5842,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/0bdb6530-7a91-452d-9d19-436918a303dc")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6169,12 +5983,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/ccac2675-2c71-44ae-8338-28518035ff7a")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7243,12 +7051,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/13994db3-039b-44ba-9158-4c455ce62b82")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7401,12 +7203,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/02f508cd-27a7-4547-a51b-bf92b694a6ce")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7559,12 +7355,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/d2154a82-cace-479b-a21b-68873945a591")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7717,12 +7507,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/0c1c3ac4-519a-48c3-9845-4b90caaa64e6")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7875,12 +7659,6 @@
 		(path "/c2419a2b-13fb-4d9c-8b00-502b19746c98")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7980,12 +7758,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/12a8a1b9-94d1-4079-863d-bfc196a65015")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8306,12 +8078,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/41277161-c168-465e-8775-28df8e8cf440")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8464,12 +8230,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/a4dbb116-e3b4-4b1e-99cd-bbd720305b52")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8701,12 +8461,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/e6c605a3-2cad-4593-9fcd-863b7adf4ab8")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8975,12 +8729,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/0a348cb6-63ac-4e52-ab05-eee5d31b54a4")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9133,12 +8881,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/167dbe0d-b510-4c83-aa80-b1f167fdef41")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9291,12 +9033,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/cf0494d4-5140-4bd1-be0b-94bcc56a6804")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9449,12 +9185,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/5a171b0a-54bb-40f0-a448-1a1790fda216")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9607,12 +9337,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/24c70e8e-5041-40da-8b9b-a6d7c3a5f9ac")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9765,12 +9489,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/4fe7f2bf-2742-4c2f-84f0-f4094ed55e56")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10083,12 +9801,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/b398d05a-0845-4284-b9b6-d84320349fbf")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10242,12 +9954,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/153db4f0-0e06-4f20-8dbc-ee05a54ae511")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10400,12 +10106,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/9a558ddd-37ac-4e29-a39b-b73f6d4178e6")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10558,12 +10258,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/be549ea9-8e74-4e64-abc4-fc2a61378313")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "2" "3" "7" "8" "4" "1" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10940,12 +10634,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/8543e4e7-9330-4c58-8975-d4dca4a2dedd")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11098,12 +10786,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/498ed60a-dae3-428a-8e5f-db8cd1c1d851")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11256,12 +10938,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/9e3c2095-bba7-46da-bcfc-b7ad190be24b")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11414,12 +11090,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/83ee831d-a097-47e6-8cdf-a98e461e3fdc")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11784,12 +11454,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/e41d7622-6b62-44da-bc28-3011a807f494")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12000,12 +11664,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/c3a8cac7-ec5b-4eae-ab95-7d7716393116")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12158,12 +11816,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/1c0c5b40-ccb6-4908-b295-4f93f129b25b")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12316,12 +11968,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/a613a481-bae1-481c-93f0-ce416078a7bf")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12474,12 +12120,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/42905bbe-b4f4-4f00-a89b-0f50e864ff73")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12632,12 +12272,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/580d2102-caa5-4863-99f5-46cb40b353f7")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12950,12 +12584,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/8a40e724-1174-4e64-8d7d-00da939993c8")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13109,12 +12737,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/556549e9-dd7b-4475-be6e-108e4a0ef5da")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13267,12 +12889,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/965859d8-53f2-433b-baf3-fc13359889fc")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13425,12 +13041,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/12ce3846-2bf6-483a-83e1-0b28348e4467")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13636,12 +13246,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/72c1e1ba-b082-4396-90d2-a8faeedee4a3")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13873,12 +13477,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/a27303fa-930f-44c4-8d18-681ddfc58c09")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14947,12 +14545,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/d2206d74-e771-44e6-8954-3b9db37235d4")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15094,14 +14686,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/2cecdbb6-8d9e-4aff-8f30-7eefc3561d12")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A1" "B1" "A12" "B12" "A9" "A4" "B9" "B4" "A5" "B5" "A7" "B7" "A6"
-					"B6"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15570,12 +15154,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/e37ae864-46ab-42e6-9a4c-337c2f752a4c")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15728,12 +15306,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/6e442da6-a1cd-4031-a644-916b8e95df65")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15875,12 +15447,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/4875963c-658c-4b65-ade6-402fb2323d93")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16336,16 +15902,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/d6f4c123-c5db-4c5e-b46a-631104618d95")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "49" "50" "47" "48" "45" "46" "43" "44" "41" "42" "39" "40" "37"
-					"38" "35" "36" "33" "34" "31" "32" "29" "30" "27" "28" "25" "26" "23"
-					"24" "21" "22" "19" "20" "17" "18" "15" "16" "13" "14" "11" "12" "9"
-					"10" "7" "8" "5" "6" "3" "4" "1" "2"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17063,12 +16619,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/e21a7ef4-3e70-47f6-91ee-6f7698cd1b02")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17221,12 +16771,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/8a37ccd9-6caf-4cfd-8f31-81e7d29406fe")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17555,9 +17099,6 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "GND")
-			(pinfunction "MP_MP")
-			(pintype "passive")
 			(uuid "a0f40f89-33f4-4bac-bc47-8a31eba7d490")
 		)
 		(pad "MP" smd roundrect
@@ -17565,9 +17106,6 @@
 			(size 1.2 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "GND")
-			(pinfunction "MP_MP")
-			(pintype "passive")
 			(uuid "bc5c48c0-13be-462b-a336-c4090cb2892a")
 		)
 		(embedded_fonts no)
@@ -17638,12 +17176,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/61f9f4dd-c863-4653-9351-115f6845eb60")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18872,12 +18404,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/b5b082a5-f59d-4c7f-992f-83bf93aaac67")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19031,12 +18557,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/d38357e6-627e-4218-82f5-c0cf5378550d")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19189,12 +18709,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/52b046f4-8c3d-4345-91dd-1709287b8281")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19546,12 +19060,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/d866928d-0d22-4b1a-8dd4-bb5f712a8e8b")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19818,12 +19326,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/cad63d1b-766f-41da-b5cb-07c869938ac1")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19976,12 +19478,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/0cbdeaf8-18b0-4b6f-8eca-18bad10a0ca8")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20255,12 +19751,6 @@
 		(path "/9ac108c8-5592-4ee7-a22b-5083dffe1150")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -20550,12 +20040,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/f2862bd4-a06a-4675-b3e2-3f287d936a2d")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20777,12 +20261,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/95d6d6dc-cd4e-4606-8fe3-df4525b49da0")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21196,12 +20674,6 @@
 		(path "/4df56087-be27-412d-9349-7ba4985cd975")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -21478,12 +20950,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/ad6dd83f-1801-4474-8b1e-be514f7ffb9c")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21625,12 +21091,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/f1365073-9572-4ada-8e2a-76a9ad78b57c")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22699,12 +22159,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/f3980388-b78c-4b78-a3f1-7e7ed10646c6")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22846,12 +22300,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/83a209b2-7af0-4345-88f7-852ebc121f90")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23131,12 +22579,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/ddfbacb6-7db3-41d3-a8d8-f318381bdb65")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23289,12 +22731,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/7418f6b9-17fc-476d-855c-1b2c8b636435")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23447,12 +22883,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/3a364492-7de2-43f8-8c30-98a93b17bc02")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23594,12 +23024,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/78641c2f-e7e2-431c-867d-ea9a6b7a6079")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23962,12 +23386,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/57851504-bfe2-4847-9bf8-545605ed9f69")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24120,12 +23538,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/8c3756ac-52f6-41b4-ae6d-df01ed07a55d")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24278,12 +23690,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/157b0a9d-8408-499a-a42d-b3a4d9f5aa61")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24436,12 +23842,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/bdfdfc8b-6b45-4ff0-91e2-a55eb3a75364")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24594,12 +23994,6 @@
 		(path "/55d540d6-16bc-47cc-ab21-3fff93e39946")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -24962,12 +24356,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/49a4d02a-e8a6-48d3-9cea-e281604c0d15")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26486,29 +25874,6 @@
 			(uuid "32c2eb3a-b03c-45f8-b69d-a8a59facdc95")
 		)
 		(embedded_fonts no)
-		(model "${CUSTOM_RP2350A}/RP2350A.stp"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "D:/Electronics Project/Armageddon/PartLibraries/RP2350A/RP2350A.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "SKRPABE010:SW4_SKRPABE010_ALPS"
 		(layer "F.Cu")
@@ -26565,12 +25930,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/15c8aeb1-0ad6-479b-9f5b-d40e201c10e1")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26933,12 +26292,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/2f47a568-5eca-40c0-be5f-f630a87912ab")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27290,12 +26643,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/692a9c7d-748b-47bd-9caf-c2851b83eca7")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27562,12 +26909,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/2b1c4590-4fed-4463-bfce-91f4e9be6ebf")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27720,12 +27061,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/cdab04f7-434c-4bd7-94a2-7ec642b318ce")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27878,12 +27213,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/f9b1b0ed-8449-42f0-b8e3-f3d51fb4d4be")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28036,12 +27365,6 @@
 		(path "/11f5443e-857e-4455-8363-a226717093fd")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -28153,12 +27476,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/7c4ab82e-3f8b-406d-9a3d-8227cb6e149e")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28300,12 +27617,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/ef833d72-69c4-4ef6-a334-25dbd66079c1")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29374,12 +28685,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/de7b7761-62db-4724-8d13-99de399f9a09")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29532,12 +28837,6 @@
 		(path "/b3847a71-75cd-4794-ab94-147d2f446e81")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr smd exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -29649,12 +28948,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/699682de-755d-4ea1-b797-bf01ee189ae1")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29928,12 +29221,6 @@
 		(path "/09d8feba-c7e7-4d06-ab91-31d791e6c758")
 		(sheetname "/")
 		(sheetfile "LogicAnalyzer_RP2350.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -30210,12 +29497,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/bad451b0-e402-4938-9890-4c47f39a4463")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30368,12 +29649,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/cd5cfc00-0204-47ca-a490-014d385f429d")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30526,12 +29801,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/59bcd5b1-534b-4ece-afaf-7147586e81e7")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30684,12 +29953,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/71635038-75d8-4554-a851-85babcb6f036")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30842,12 +30105,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/a83b307f-c7ff-463e-b9d2-be7edb5a9722")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31000,12 +30257,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/caa08c94-a784-4eb6-a387-9f4c4a6b3286")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31158,14 +30409,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/3a9e4ec6-0894-4326-aaae-936a63cf025d")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "12" "13" "14" "15" "1" "20" "16" "17" "18" "19" "2" "3" "4" "5"
-					"11" "10" "9" "8" "7" "6"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31874,12 +31117,6 @@
 		(path "/805e660b-1486-4481-a006-02fc919054bd/68509561-c786-4165-8258-56d53b5446c8")
 		(sheetname "/USB & POWER/")
 		(sheetfile "USB & POWER.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32280,12 +31517,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/187afa9a-612a-4361-af1e-80808097b88a")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32439,12 +31670,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/8b535da7-30e4-4e2a-af4a-9c131de11e0a")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32597,12 +31822,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/585df6b4-0fa0-47af-b82d-ef11628a099e")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32755,12 +31974,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/cee651fb-2b5b-42b9-93b2-031616f93a35")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33073,12 +32286,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/49aa9dd1-ba64-42d1-b4c3-52bc4e8e02ac")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33431,12 +32638,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/2a97d75e-5c92-41a5-8682-f68df996baaf")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "9" "8" "7" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33703,12 +32904,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/9b8e189b-22d6-43af-aa28-6762efb263f2")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33861,12 +33056,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/96fa45b4-9115-4b47-9cf8-6bd8e3cf1fe4")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34019,12 +33208,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/f018e4a8-8627-409a-8a93-6bfa9a12e9cc")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34177,12 +33360,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/a5932ab0-20ce-45cf-8a6e-2c1fde2360a2")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34335,12 +33512,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/8127b4bc-bc50-48e6-ab26-0f650264adcb")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34493,12 +33664,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/64399a3f-20f2-44ac-95cb-4b36f9e7b57d")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34640,12 +33805,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/0ffe762e-ba7c-418d-877e-201bc5781ca4")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35703,12 +34862,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/5ecc7d85-ce4c-4b3b-a5f4-77ac9e5d9d34")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36018,18 +35171,12 @@
 			(at -6.800002 -0.322702)
 			(size 1.1938 1.8542)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "MP_13")
-			(pintype "passive")
 			(uuid "1aec5c5c-6b1b-456c-9a79-4ed20a12730a")
 		)
 		(pad "14" smd rect
 			(at 6.800002 -0.322702)
 			(size 1.1938 1.8542)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "MP_14")
-			(pintype "passive")
 			(uuid "e028975e-08dd-406f-b65a-1d4bae26e458")
 		)
 		(zone
@@ -36531,12 +35678,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/cff4d941-2f87-430f-bc93-7f8f49264e19")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36678,12 +35819,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/4cf18947-2608-48d6-9a50-8938617fc6dc")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36892,18 +36027,12 @@
 			(at -3.8 -0.7542)
 			(size 2.2098 3.0988)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "MP_4")
-			(pintype "passive")
 			(uuid "4b41b0cf-34f9-4407-8a33-cefe3e2b5b27")
 		)
 		(pad "5" smd rect
 			(at 3.8 -0.7542)
 			(size 2.2098 3.0988)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(pinfunction "MP_5")
-			(pintype "passive")
 			(uuid "a241425c-de02-4b9e-b6b9-22e767ec3138")
 		)
 		(zone
@@ -37135,12 +36264,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/1620b7e7-8b48-4b69-97a2-3c8ff99a7a1f")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37293,12 +36416,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/56362460-b149-49ae-9efe-fd7fc2f2e99a")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37451,12 +36568,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/7ba1ffd3-4897-4452-82d7-db861909b525")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37609,12 +36720,6 @@
 		(path "/68c34580-4572-474c-bc8b-c0b67926a418/2d45c186-208f-4967-b727-b11c934afc96")
 		(sheetname "/FrontPanelInterface/")
 		(sheetfile "FrontPanelInterface.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37767,12 +36872,6 @@
 		(path "/08028c02-6110-45a5-bc16-9b1936572182/edd8a4db-2247-4d8c-8b92-739945ace8fb")
 		(sheetname "/RP2350_Main/")
 		(sheetfile "RP2350_Main.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37925,12 +37024,6 @@
 		(path "/d8a2af0e-dea5-48dd-840f-5c1357943d7a/37016a85-adf8-46a0-8c1a-3440ecaa22a4")
 		(sheetname "/LevelShifters/")
 		(sheetfile "LevelShifters.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

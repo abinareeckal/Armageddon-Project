@@ -3419,42 +3419,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -33.02 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -33.02 90)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "TPS2552DRVR-1_1_1"
 				(rectangle
@@ -4445,12 +4409,6 @@
 		(uuid "12bb2c04-f807-495d-b1a5-eca8913f0f87")
 	)
 	(junction
-		(at 220.98 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1978d2e5-727b-495e-94f3-ffc7b4a85235")
-	)
-	(junction
 		(at 205.74 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4623,12 +4581,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46853fa-b1fa-4eaf-95a5-5bbaaeaa113d")
-	)
-	(junction
-		(at 232.41 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f941b6bc-fdb9-40dd-a07c-99c8b9dbd682")
 	)
 	(wire
 		(pts
@@ -4832,7 +4784,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 64.77) (xy 232.41 64.77)
+			(xy 247.65 64.77) (xy 228.6 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4912,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 220.98 64.77)
+			(xy 205.74 64.77) (xy 224.79 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4989,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "47066c2d-f064-4994-94d2-c0f64ec78ff1")
-	)
-	(wire
-		(pts
-			(xy 220.98 60.96) (xy 220.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487af6bc-d172-4592-9382-57db18df136a")
 	)
 	(wire
 		(pts
@@ -5322,16 +5264,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 60.96) (xy 232.41 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e84fb61-5fb4-4ba5-b0da-7ae3c47055fa")
-	)
-	(wire
-		(pts
 			(xy 110.49 50.8) (xy 110.49 55.88)
 		)
 		(stroke
@@ -5442,16 +5374,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 224.79 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33cd5f8-fa45-43ca-b04b-adc87acf4bc6")
-	)
-	(wire
-		(pts
 			(xy 58.42 143.51) (xy 81.28 143.51)
 		)
 		(stroke
@@ -5499,16 +5421,6 @@
 			(type default)
 		)
 		(uuid "b9d18469-35c2-48b6-9d36-81f5c1b7a145")
-	)
-	(wire
-		(pts
-			(xy 232.41 64.77) (xy 228.6 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba2eb03d-d9e4-4e91-84f2-e7768266ebc8")
 	)
 	(wire
 		(pts
@@ -6605,12 +6517,6 @@
 		)
 		(pin "3"
 			(uuid "6c667298-4222-4794-8568-126f6898b22e")
-		)
-		(pin "GND_VIA"
-			(uuid "5583bbbd-1d2c-45a1-9d27-f0d442ed9b70")
-		)
-		(pin "GND_VIA"
-			(uuid "89545823-b7a5-4ccc-8acc-30fae8d93e7b")
 		)
 		(instances
 			(project "LogicAnalyzer_RP2350"

@@ -102,7 +102,7 @@
 		(symbol "SM03B-SRSS-TB_1_1"
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -7.62)
+					(xy 5.08 3.81) (xy 5.08 -8.89)
 				)
 				(stroke
 					(width 0.127)
@@ -114,7 +114,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 12.7 -7.62)
+					(xy 5.08 -8.89) (xy 12.7 -8.89)
 				)
 				(stroke
 					(width 0.127)
@@ -234,7 +234,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 2.54) (xy 5.08 2.54)
+					(xy 12.7 3.81) (xy 5.08 3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -246,7 +246,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -7.62) (xy 12.7 2.54)
+					(xy 12.7 -8.89) (xy 12.7 3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -303,6 +303,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 6.35 270)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -11.43 90)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -580,6 +580,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/BLM18PG221SN1D/footprints.pretty/IND_BLM18_0603_MUR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -1271,6 +1282,17 @@
 			(uuid "424cdd4d-3393-4a79-961a-df70d42a3af4")
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/TPS2552DRVR_1/footprints.pretty/DRV0006A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
@@ -4937,7 +4959,7 @@
 			(uuid "5320cf98-1770-4ac5-a9a0-77692d6d3cec")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/KiCad_WA-SMSI (rev26b)/3dmodels/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7978,6 +8000,17 @@
 			(uuid "0dbbaaa2-f9c0-4177-a747-45086cd58756")
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/ABM8_272_T3/KiCADv6/footprints.pretty/ABM8-272-T3.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -8618,7 +8651,7 @@
 			(uuid "1073fbb9-3d70-49b3-9b14-d2950fc1216a")
 		)
 		(embedded_fonts no)
-		(model "NCP1117ST33T3G.stp"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/NCP1117/SOT223-3_ONS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8626,7 +8659,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -11553,7 +11586,7 @@
 			(uuid "64c31e95-7c72-41e0-830c-2af5b12535ea")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-CNSW-HF-0805.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/CommonModeChoke-WE-CNSW-HF (rev26b)/3dmodels/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-CNSW-HF-0805.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13377,15 +13410,15 @@
 			(uuid "bc6f8269-e805-4f3d-a7c7-7f2bcfeab6ff")
 		)
 		(embedded_fonts no)
-		(model "AOTA-B201610S3R3-101-T.stp"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/ABRACON AOTA-B201610S3R3-101-T/AOTA-B201610S.STEP"
 			(offset
-				(xyz 0 0 0.04999999999)
+				(xyz 0 0 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 -180)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19916,7 +19949,7 @@
 			(uuid "15198b47-a7ab-4ede-8d38-2132ec38ebb8")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/KiCad_WA-SMSI (rev26b)/3dmodels/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20839,7 +20872,7 @@
 			(uuid "a62211d8-3729-4dcf-9036-3171af360efa")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/KiCad_WA-SMSI (rev26b)/3dmodels/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23275,6 +23308,17 @@
 			(uuid "42957224-fb8a-482c-be89-fa5a5feb7f5a")
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/SKRPABE010/KiCADv6/footprints.pretty/SKRPABE010.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -24676,7 +24720,7 @@
 			(uuid "e92508a2-3dbc-4ddc-8eeb-4feac7e38032")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Capacitor_SMD_Wurth.3dshapes/CP_Wurth_WCAP-ASLI-D4L5.5.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/Wurth-865080640004/3dmodels/Capacitor_SMD_Wurth.3dshapes/CP_Wurth_WCAP-ASLI-D4L5.5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26181,6 +26225,17 @@
 			(uuid "88b64200-0df6-4f98-9cb7-6343e466311b")
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/SKRPABE010/KiCADv6/footprints.pretty/SKRPABE010.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -29375,7 +29430,7 @@
 			(uuid "e6dfdded-d4e1-4d5f-a4a0-b1ffba1d23d6")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/KiCad_WA-SMSI (rev26b)/3dmodels/Assembly_SMD_Wurth.3dshapes/A_Wurth_WA-SMSI_9774050151R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31235,7 +31290,7 @@
 			(uuid "e55b57dc-4917-4e1f-8f75-8ae275f9cfbb")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Diode_SMD_Wurth.3dshapes/D_Wurth_WE-TVS-SOT23-5L.step"
+		(model "D:/Electronics Project/Armageddon/PartLibraries/KiCad_WE-TVS (rev26a)/3dmodels/Diode_SMD_Wurth.3dshapes/D_Wurth_WE-TVS-SOT23-5L.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35556,6 +35611,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/Molex-2035571207/footprints.pretty/2035571207.stp"
+			(offset
+				(xyz 0 2.5 6.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -36131,6 +36197,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "D:/Electronics Project/Armageddon/PartLibraries/Molex-533984003/footprints.pretty/0533984003.stp"
+			(offset
+				(xyz 0 2 5.7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")

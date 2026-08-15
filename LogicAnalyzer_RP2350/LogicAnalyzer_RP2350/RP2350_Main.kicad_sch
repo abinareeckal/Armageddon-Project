@@ -7275,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_0402 Small Pads for RP2350 VREG:C_0402_1005Metric_small_pads"
 			(at 101.6 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +9981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ABRACON AOTA-B201610S3R3-101-T:AOTAB201610S3R3101T"
+		(property "Footprint" "Inductor_RP2350_Foot Print:L_pol_2016"
 			(at 33.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12899,7 +12899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_0402 Small Pads for RP2350 VREG:C_0402_1005Metric_small_pads"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)

@@ -26,8 +26,8 @@
       "pads": false,
       "text": false,
       "tracks": true,
-      "vias": true,
-      "zones": true
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -96,9 +96,9 @@
       11
     ],
     "col_widths": [
-      149,
-      138,
-      113,
+      295,
+      387,
+      462,
       92,
       98,
       116,
@@ -107,20 +107,20 @@
       92,
       92,
       92,
-      92
+      1442
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "",
+    "filter_text": "USB",
     "group_by_constraint": false,
     "group_by_netclass": false,
-    "show_time_domain_details": false,
+    "show_time_domain_details": true,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": 1
   },
   "open_jobsets": [],
   "project": {

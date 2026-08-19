@@ -579,6 +579,7 @@
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 4,
         "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2113,
         "tuning_profile": "USB_DIFF_PAIR"
       }
     ],

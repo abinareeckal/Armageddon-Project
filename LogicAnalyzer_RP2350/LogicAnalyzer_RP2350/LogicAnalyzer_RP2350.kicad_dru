@@ -1,5 +1,7 @@
 (version 1)
-(rule USB_DIFF
-	(condition "A.hasNetclass('USB')")
-	(constraint length (min 170ps) (opt 177ps) (max 184ps))
+(rule "skew matching USB"
+	(constraint skew (min -25ps)(max 25ps))
+	(condition "A.NetClass == 'USB' && AB.isCoupledDiffPair()")
+	(severity error)
 )
+

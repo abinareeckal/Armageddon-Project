@@ -76,9 +76,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.3,
+          "gap": 0.125,
           "via_gap": 0.5,
-          "width": 0.3
+          "width": 0.2113
         }
       ],
       "drc_exclusions": [],
@@ -155,8 +155,8 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -166,7 +166,7 @@
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.035,
         "use_height_for_length_calcs": true
       },
@@ -246,7 +246,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.3
         }
       },
       "via_dimensions": [
@@ -556,7 +556,7 @@
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 3,
         "schematic_color": "rgb(132, 0, 132)",
-        "tuning_profile": ""
+        "tuning_profile": "LogicSignals"
       },
       {
         "name": "MEMORY",
@@ -579,7 +579,8 @@
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 4,
         "schematic_color": "rgb(0, 194, 194)",
-        "tuning_profile": ""
+        "track_width": 0.2113,
+        "tuning_profile": "USB_DIFF_PAIR"
       }
     ],
     "meta": {
@@ -589,8 +590,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "/USBC-"
+        "netclass": "GROUND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "LOGIC INPUTS",
+        "pattern": "/LevelShifters/D1|/LevelShifters/D2|/LevelShifters/D3|/LevelShifters/D4|/LevelShifters/D5|/LevelShifters/D6|/LevelShifters/D7|/LevelShifters/D8|/LevelShifters/D9|/LevelShifters/D10|/LevelShifters/D11|/LevelShifters/D12|/LevelShifters/D13|/LevelShifters/D14|/LevelShifters/D15|/LevelShifters/D16|/LevelShifters/D17|/LevelShifters/D18|/LevelShifters/D19|/LevelShifters/D20|/LevelShifters/D21|/LevelShifters/D22|/LevelShifters/D23|/LevelShifters/D24|/RP2350_Main/GP2|/RP2350_Main/GP3|/RP2350_Main/GP4|/RP2350_Main/GP5|/RP2350_Main/GP6|/RP2350_Main/GP7|/RP2350_Main/GP8|/RP2350_Main/GP9|/RP2350_Main/GP10|/RP2350_Main/GP11|/RP2350_Main/GP12|/RP2350_Main/GP13|/RP2350_Main/GP14|/RP2350_Main/GP15|/RP2350_Main/GP16|/RP2350_Main/GP17|/RP2350_Main/GP18|/RP2350_Main/GP19|/RP2350_Main/GP20|/RP2350_Main/GP21|/RP2350_Main/GP22|/RP2350_Main/GP26|/RP2350_Main/GP27|/RP2350_Main/GP28"
+      },
+      {
+        "netclass": "LOGIC INPUTS",
+        "pattern": "/LevelShifters/DIN(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24)"
+      },
+      {
+        "netclass": "LOGIC INPUTS",
+        "pattern": "/LevelShifters/.*"
+      },
+      {
+        "netclass": "MEMORY",
+        "pattern": "/RP2350_Main/QSPI_S(CLK|D0|D1|D2|D3|S)"
       },
       {
         "netclass": "POWER",
@@ -607,6 +624,22 @@
       {
         "netclass": "POWER",
         "pattern": "+1V1"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/FrontPanelInterface/VREF"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/FrontPanelInterface/EXTVREF"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/USB & POWER/VBUS_FILT"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USBC-"
       },
       {
         "netclass": "USB",
@@ -631,38 +664,6 @@
       {
         "netclass": "USB",
         "pattern": "/RP2350_Main/RP-"
-      },
-      {
-        "netclass": "MEMORY",
-        "pattern": "/RP2350_Main/QSPI_S(CLK|D0|D1|D2|D3|S)"
-      },
-      {
-        "netclass": "LOGIC INPUTS",
-        "pattern": "/LevelShifters/D1|/LevelShifters/D2|/LevelShifters/D3|/LevelShifters/D4|/LevelShifters/D5|/LevelShifters/D6|/LevelShifters/D7|/LevelShifters/D8|/LevelShifters/D9|/LevelShifters/D10|/LevelShifters/D11|/LevelShifters/D12|/LevelShifters/D13|/LevelShifters/D14|/LevelShifters/D15|/LevelShifters/D16|/LevelShifters/D17|/LevelShifters/D18|/LevelShifters/D19|/LevelShifters/D20|/LevelShifters/D21|/LevelShifters/D22|/LevelShifters/D23|/LevelShifters/D24|/RP2350_Main/GP2|/RP2350_Main/GP3|/RP2350_Main/GP4|/RP2350_Main/GP5|/RP2350_Main/GP6|/RP2350_Main/GP7|/RP2350_Main/GP8|/RP2350_Main/GP9|/RP2350_Main/GP10|/RP2350_Main/GP11|/RP2350_Main/GP12|/RP2350_Main/GP13|/RP2350_Main/GP14|/RP2350_Main/GP15|/RP2350_Main/GP16|/RP2350_Main/GP17|/RP2350_Main/GP18|/RP2350_Main/GP19|/RP2350_Main/GP20|/RP2350_Main/GP21|/RP2350_Main/GP22|/RP2350_Main/GP26|/RP2350_Main/GP27|/RP2350_Main/GP28"
-      },
-      {
-        "netclass": "LOGIC INPUTS",
-        "pattern": "/LevelShifters/DIN(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24)"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/FrontPanelInterface/VREF"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/FrontPanelInterface/EXTVREF"
-      },
-      {
-        "netclass": "LOGIC INPUTS",
-        "pattern": "/LevelShifters/.*"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/USB & POWER/VBUS_FILT"
-      },
-      {
-        "netclass": "GROUND",
-        "pattern": "GND"
       },
       {
         "netclass": "USB",
@@ -838,18 +839,18 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 0,
+            "delay": 5689700,
             "diff_pair_gap": 125000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
             "width": 211300
           }
         ],
-        "profile_name": "USB_DIFFPAIR",
+        "profile_name": "USB_DIFF_PAIR",
         "target_impedance": 90.0,
         "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 5000000
+        "via_prop_delay": 6000000
       }
     ]
   }

@@ -6591,7 +6591,7 @@
 		)
 		(uuid "1d666e34-59ef-41d2-9131-5efa256cd918")
 	)
-	(label "USB_BOOT"
+	(label "RP_BOOT"
 		(at 64.77 109.22 90)
 		(effects
 			(font

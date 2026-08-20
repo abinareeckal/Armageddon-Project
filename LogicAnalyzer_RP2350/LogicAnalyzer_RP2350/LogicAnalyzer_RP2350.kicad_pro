@@ -175,7 +175,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -235,15 +235,15 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.3,
+          "min_amplitude": 0.125,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.3
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.3,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.3
@@ -547,28 +547,21 @@
       {
         "name": "GROUND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(132, 132, 132)",
         "tuning_profile": ""
       },
       {
-        "name": "LOGIC INPUTS",
-        "pcb_color": "rgb(132, 0, 132)",
-        "priority": 3,
-        "schematic_color": "rgb(132, 0, 132)",
-        "tuning_profile": "LogicSignals"
-      },
-      {
         "name": "MEMORY",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(255, 153, 0)",
         "tuning_profile": ""
       },
       {
         "name": "POWER",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": ""
       },
@@ -577,10 +570,26 @@
         "diff_pair_width": 0.2113,
         "name": "USB",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.2113,
         "tuning_profile": "USB_DIFF_PAIR"
+      },
+      {
+        "name": "logic_LengthMatched",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.15,
+        "tuning_profile": "LogicSignals"
+      },
+      {
+        "name": "logic_uc",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.15,
+        "tuning_profile": "LogicSignals"
       }
     ],
     "meta": {
@@ -594,15 +603,15 @@
         "pattern": "GND"
       },
       {
-        "netclass": "LOGIC INPUTS",
+        "netclass": "Default",
         "pattern": "/LevelShifters/D1|/LevelShifters/D2|/LevelShifters/D3|/LevelShifters/D4|/LevelShifters/D5|/LevelShifters/D6|/LevelShifters/D7|/LevelShifters/D8|/LevelShifters/D9|/LevelShifters/D10|/LevelShifters/D11|/LevelShifters/D12|/LevelShifters/D13|/LevelShifters/D14|/LevelShifters/D15|/LevelShifters/D16|/LevelShifters/D17|/LevelShifters/D18|/LevelShifters/D19|/LevelShifters/D20|/LevelShifters/D21|/LevelShifters/D22|/LevelShifters/D23|/LevelShifters/D24|/RP2350_Main/GP2|/RP2350_Main/GP3|/RP2350_Main/GP4|/RP2350_Main/GP5|/RP2350_Main/GP6|/RP2350_Main/GP7|/RP2350_Main/GP8|/RP2350_Main/GP9|/RP2350_Main/GP10|/RP2350_Main/GP11|/RP2350_Main/GP12|/RP2350_Main/GP13|/RP2350_Main/GP14|/RP2350_Main/GP15|/RP2350_Main/GP16|/RP2350_Main/GP17|/RP2350_Main/GP18|/RP2350_Main/GP19|/RP2350_Main/GP20|/RP2350_Main/GP21|/RP2350_Main/GP22|/RP2350_Main/GP26|/RP2350_Main/GP27|/RP2350_Main/GP28"
       },
       {
-        "netclass": "LOGIC INPUTS",
+        "netclass": "Default",
         "pattern": "/LevelShifters/DIN(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24)"
       },
       {
-        "netclass": "LOGIC INPUTS",
+        "netclass": "Default",
         "pattern": "/LevelShifters/.*"
       },
       {
@@ -672,6 +681,14 @@
       {
         "netclass": "USB",
         "pattern": "/USB & POWER/TUSBC-"
+      },
+      {
+        "netclass": "logic_LengthMatched",
+        "pattern": "/LevelShifters/D(1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24)"
+      },
+      {
+        "netclass": "logic_uc",
+        "pattern": "/RP2350_Main/GP(2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|26|27|28)"
       }
     ]
   },
@@ -849,6 +866,24 @@
         "profile_name": "USB_DIFF_PAIR",
         "target_impedance": 90.0,
         "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 6000000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5586500,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 150000
+          }
+        ],
+        "profile_name": "LogicSignals",
+        "target_impedance": 50.0,
+        "type": 0,
         "via_overrides": [],
         "via_prop_delay": 6000000
       }

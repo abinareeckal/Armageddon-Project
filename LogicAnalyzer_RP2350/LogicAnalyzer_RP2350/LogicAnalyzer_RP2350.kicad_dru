@@ -5,3 +5,8 @@
 	(severity error)
 )
 
+(rule "LogicInputs"
+	(condition "A.hasNetclass('logic_LengthMatched')")
+	(constraint length (min 120ps)(opt 150ps)(max 220ps))
+
+)

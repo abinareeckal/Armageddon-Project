@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDOB128032GV-WI
+D This 12832 Graphic OLED display is 0.91 in diagonal size, and its construction is Chip-on-board. The interface is IC and it has White on Black appearance.
+K
+F https://www.farnell.com/datasheets/4321238.pdf?_gl=1*i8kz1n*_gcl_au*MTI2MzUwOTk1MS4xNzYxMjA4MTMx
+$ENDCMP
+#
+#End Doc Library
